@@ -23,10 +23,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `b_time_slots`
+-- Table structure for table `a_time_slots`
 --
 
-CREATE TABLE IF NOT EXISTS `b_time_slots` (
+CREATE TABLE IF NOT EXISTS `a_time_slots` (
   `id` int(14) unsigned NOT NULL,
   `outerId` varchar(40) NOT NULL,
   `start` int(13) unsigned NOT NULL,
@@ -37,10 +37,10 @@ CREATE TABLE IF NOT EXISTS `b_time_slots` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `b_time_slots`
+-- Dumping data for table `a_time_slots`
 --
 
-INSERT INTO `b_time_slots` (`id`, `outerId`, `start`, `end`, `type`, `zoneId`, `reserved`) VALUES
+INSERT INTO `a_time_slots` (`id`, `outerId`, `start`, `end`, `type`, `zoneId`, `reserved`) VALUES
 (1, '3232', 1493241033, 1493249033, 1, 2, 0);
 
 --
@@ -48,9 +48,9 @@ INSERT INTO `b_time_slots` (`id`, `outerId`, `start`, `end`, `type`, `zoneId`, `
 --
 
 --
--- Indexes for table `b_time_slots`
+-- Indexes for table `a_time_slots`
 --
-ALTER TABLE `b_time_slots`
+ALTER TABLE `a_time_slots`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -58,9 +58,9 @@ ALTER TABLE `b_time_slots`
 --
 
 --
--- AUTO_INCREMENT for table `b_time_slots`
+-- AUTO_INCREMENT for table `a_time_slots`
 --
-ALTER TABLE `b_time_slots`
+ALTER TABLE `a_time_slots`
   MODIFY `id` int(14) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
