@@ -20,7 +20,7 @@ class BuslikTimeSlotHelper
 				$startOfDay = floor (time() / 86400) * 86400;
                 $endOfDay = $startOfDay + 86400;
 				
-				echo $selectSql = "SELECT * FROM `b_time_slots` WHERE `start` > {$startOfDay} and {$endOfDay} >`end` and `zoneId`={$zoneId} and `reserved`=0";
+				echo $selectSql = "SELECT * FROM `a_time_slots` WHERE `start` > {$startOfDay} and {$endOfDay} >`end` and `zoneId`={$zoneId} and `reserved`=0";
 
 				$result = $this->dbLink->query($selectSql);
 				
