@@ -1,0 +1,7 @@
+.ys_catalog_text{margin-bottom: 30px}
+.ys_catalog_text .ys_catalog_text_ul{padding: 0}
+.ys_catalog_text .ys_catalog_text_ul li{
+	list-style: none;
+	margin: 0 10px 10px;
+	float: left;
+}

@@ -1,0 +1,5 @@
+/*Menu icon*/
+#turbo_menu_icon {background-image:url(icons/yenisite.turbo/small.gif);}
+#turbo_page_icon {background-image:url(icons/yenisite.turbo/big.gif);}
+/*Menu icon BX12*/
+.turbo_menu_icon {background:url(icons/yenisite.turbo/medium.png) 5px 0px no-repeat !important;}//тут другая иконка совсем, так как размеры поменялись

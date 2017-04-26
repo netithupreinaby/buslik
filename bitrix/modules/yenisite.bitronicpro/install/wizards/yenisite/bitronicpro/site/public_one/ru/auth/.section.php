@@ -1,0 +1,5 @@
+<?
+$arDirProperties = Array(
+   "TITLE" => "Авторизация"
+);
+?>

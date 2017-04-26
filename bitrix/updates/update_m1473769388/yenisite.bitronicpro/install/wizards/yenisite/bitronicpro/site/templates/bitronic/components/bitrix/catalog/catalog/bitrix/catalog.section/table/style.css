@@ -1,0 +1,42 @@
+.ye-prop {
+	margin-left: 10px;
+}
+
+.ye-props select.toggle-list, .ye-props .selectBox {
+    border: medium none !important;
+    height: 25px !important;
+    padding: 5px 5px 0 !important;
+    width: 170px !important;
+	
+	margin-bottom: 10px;
+}
+.ye-props input.checkbox, .ye-props select, .ye-props .selectBox {
+    cursor: pointer !important;
+}
+.ye-props .selectBox-dropdown {
+    color: #000000 !important;
+    min-width: 150px !important;
+    outline: medium none !important;
+    position: relative !important;
+    text-decoration: none !important;
+    vertical-align: middle !important;
+}
+.ye-props .selectBox-arrow {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/search-arrow.png") no-repeat scroll center center transparent !important;
+}
+.ye-props .selectBox-dropdown .selectBox-arrow {
+    height: 100% !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 23px !important;
+}
+
+.ye-props select.toggle-list, .ye-props .selectBox {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/sb_select_ice.png") no-repeat scroll left top transparent;
+}
+
+.ye-props .set-item {float: left; height: 80px; width: 45%;}
+.ye-props .set-but {position: absolute; bottom: 30px; right: 30px;}
+
+.selectBox-dropdown-menu {height: 150px !important;}

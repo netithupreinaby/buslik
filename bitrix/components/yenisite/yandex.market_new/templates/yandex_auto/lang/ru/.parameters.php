@@ -1,0 +1,31 @@
+<?
+$MESS["MARK"] = "Марка автомобиля*";
+$MESS["MODEL"] = "Модель автомобиля*";
+$MESS["YEAR"] = "Год автомобиля*";
+$MESS["SELLER_CITY"] = "Город, продавца автомобиля*";
+$MESS["SELLER_PHONE"] = "Контактный телефон продавца*";
+$MESS["DISPLACEMENT"] = "Объем двигателя*";
+$MESS["RUN"] = "Пробег автомобиля*";
+$MESS["RUN_METRIC"] = "Размерность, в которой измеряется пробег*";
+$MESS["STEERING_WHEL"] = "Положение руля*";
+$MESS["STOCK"] = "Примечание о наличии*";
+$MESS["STATE"] = "Состояние автомобиля";
+$MESS["COLOR"] = "Цвет автомобиля";
+$MESS["BODY_TYPE"] = "Тип кузова";
+$MESS["ENGINE_TYPE"] = "Тип двигателя";
+$MESS["GEAR_TYPE"] = "Привод";
+$MESS["TRANSMITION"] = "Коробка передач";
+$MESS["HAGGLE"] = "Торг";
+$MESS["SELLER"] = "Имя продавца";
+$MESS["EQUIPMENT"] = "Комплектация автомобиля";
+$MESS["VIN"] = "Индентификационный номер автомобиля";
+$MESS["ADDITIONAL_INFO"] = "Текстовое описание";
+$MESS["DOORS_COUNT"] = "Количество дверей автомобиля";
+$MESS["GENERATION"] = "Поколение атвомобиля";
+$MESS["MODIFICATION"] = "Модификации автомобиля";
+$MESS["HORSE_POWER"] = "Лошадиные силы";
+$MESS["COUSTOM_HOUSE_STATE"] = "Таможенное состояние";
+$MESS["TYPE_OFFER"] = "Тип объявления";
+$MESS["PRIVATE"] = "Частное";
+$MESS["COMMERCIAL"] = "Коммерческое";
+?>

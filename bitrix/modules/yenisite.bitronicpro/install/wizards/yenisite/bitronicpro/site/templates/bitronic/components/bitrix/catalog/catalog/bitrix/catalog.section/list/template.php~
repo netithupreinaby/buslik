@@ -1,0 +1,99 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<? 
+CModule::IncludeModule('yenisite.resizer2'); 
+print_r($arParams[RESIZER_SETS]);
+
+?>
+
+				<div class="catalog">
+					<ul class="catalog-list-view">
+					
+<?foreach($arResult["ITEMS"] as $cell=>$arElement):?>					
+    
+	<?
+    $this->AddEditAction($arElement['ID'], $arElement['EDIT_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_EDIT"));
+    $this->AddDeleteAction($arElement['ID'], $arElement['DELETE_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BCS_ELEMENT_DELETE_CONFIRM')));
+    ?>
+	
+	<?
+        $pr = 0; $kr = 0;
+        foreach($arElement[PRICES] as $k => $price)
+            if($price[VALUE] < $pr || $pr == 0 ){ $pr = $price[VALUE]; $kr = $k; }			
+        $price = $arElement[PRICES][$kr][VALUE];
+        $disc = 0;
+        if($arElement[PRICES][$kr][DISCOUNT_VALUE])
+            $disc =  ($arElement["PRICES"][$kr]["VALUE"] - $arElement["PRICES"][$kr]["DISCOUNT_VALUE"])*100/$arElement["PRICES"][$kr]["VALUE"];        
+    ?>   
+						<li id="<?=$this->GetEditAreaId($arElement['ID']);?>">
+						
+							<div class="item_links">
+							
+									<span class="price"><?=$arElement[PRICES][$kr][DISCOUNT_VALUE]?$arElement[PRICES][$kr][DISCOUNT_VALUE]:$pr;?><span class="rubl"></span> 
+									<?if($arElement[PRICES][$kr][DISCOUNT_VALUE]):?>
+									<span class="oldprice"><?=$pr;?><span class="rubl"></span></span>
+									<?endif?>									
+									</span>
+									<a href="<?echo $arElement["ADD_URL"]?>"><button class="button2"><span><?=GetMessage('CATALOG_ADD')?></span></button></a>
+									<div class="compare_list">
+										<span class="ws">+</span>
+										<a href="<?echo $arOffer["COMPARE_URL"]?>"><?echo GetMessage("CATALOG_COMPARE")?></a>
+									</div>
+							</div>
+							<div class="item-pic">
+								<?if($arElement["PROPERTIES"]["NEW"]["VALUE"]):?>
+								<div class="new-label mark"></div>
+								<?endif?>
+								<?if($arElement["PROPERTIES"]["HIT"]["VALUE"]):?>
+								<div class="star-label mark"><span class="ws">R</span></div>
+								<?endif?>
+								<?if($disc>0):?>
+								<div class="per-label mark">-<?=IntVal($disc)?>%</div>
+								<?endif?>
+							    <?$path = CFile::GetPath($arElement[PROPERTIES][PHOTO][VALUE][0]);?>
+								<a href="<?=$arElement[DETAIL_PAGE_URL]?>" class="sl_img"><img src='<?=CResizer2Resize::ResizeGD2($path,3);?>' alt='<?=$arElement[NAME]?>' /></a>
+							</div>
+							
+							<div class="item_descr">
+							<h3><a href="<?=$arElement[DETAIL_PAGE_URL]?>"><?=$arElement[NAME]?></a></h3>
+							<p><?=$arElement[PREVIEW_TEXT]?></p>
+							<div class="item_info">
+									<div class="stars">
+										<span class="fivestar">
+											<a href="#"></a>
+											<a href="#"></a>
+											<a href="#"></a>
+											<a href="#"></a>
+											<a href="#"></a>
+										</span>
+										<span class="reply">
+											<span class="ws">c</span> <?=GetMessage('CATALOG_REVIEW')?>
+										</span><!--.reply-->
+									</div><!--.stars-->
+									<?if($arElement["CATALOG_QUANTITY_TRACE"] == "Y" && $arElement["CATALOG_QUANTITY"] == 0):?>
+										<div class="have"><?echo GetMessage("CATALOG_NOT_AVAILABLE")?></div>
+									<?else:?>
+										<div class="have"><?echo GetMessage("CATALOG_AVAILABLE")?></div>
+									<?endif?>
+								</div><!--.item_info-->
+							
+							</div>	
+							<div style="clear:both;"></div>
+						</li>
+						<?endforeach;?>						
+						</ul>
+					<div style="clear:both;"></div>
+				</div><!--.cataog-->
+				<div class="pager-block">
+					<div class="show_filter">
+						<?echo GetMessage("PAGE_COUNT")?>:
+							<form name='pagecount' method="post">
+								<select name='page_count' onchange="document.forms['pagecount'].submit();">
+									<option value='20' <?=$arParams[PAGE_ELEMENT_COUNT] == 20?"selected='selected'":""; ?>>20</option>
+									<option value='40' <?=$arParams[PAGE_ELEMENT_COUNT] == 40?"selected='selected'":""; ?>>40</option>
+									<option value='60' <?=$arParams[PAGE_ELEMENT_COUNT] == 60?"selected='selected'":""; ?>>60</option>
+								</select>
+							</form>
+					</div><!--.show_filter-->
+					
+					<?=$arResult["NAV_STRING"]?>
+				</div><!--.pager-block-->

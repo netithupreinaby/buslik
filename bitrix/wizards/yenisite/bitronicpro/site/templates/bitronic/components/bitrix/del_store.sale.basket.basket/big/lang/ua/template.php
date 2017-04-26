@@ -1,0 +1,36 @@
+<?
+$MESS ['SALE_REFRESH'] = "       Оновити       ";
+$MESS ['SALE_ORDER'] = "Оформити замовлення";
+$MESS ['SALE_NAME'] = "Назва";
+$MESS ['SALE_PROPS'] = "Властивості";
+$MESS ['SALE_PRICE'] = "Ціна";
+$MESS ['SALE_PRICE_TYPE'] = "Тип ціни";
+$MESS ['SALE_QUANTITY'] = "Кількість";
+$MESS ['SALE_DELETE'] = "Видалити";
+$MESS ['SALE_DELETE_PRD'] = "Видалити товар з кошика";
+$MESS ['SALE_OTLOG'] = "Відкласти";
+$MESS ['SALE_WEIGHT'] = "Вага";
+$MESS ['SALE_WEIGHT_G'] = "г";
+$MESS ['SALE_ITOGO'] = "Разом";
+$MESS ['SALE_REFRESH_DESCR'] = "Натисніть цю кнопку, щоб перерахувати, видалити або відкласти товари.";
+$MESS ['SALE_ORDER_DESCR'] = "Натисніть цю кнопку, щоб замовити товари, що знаходяться в кошику";
+$MESS ['SALE_OTLOG_TITLE'] = "Відкладено";
+$MESS ['SALE_UNAVAIL_TITLE'] = "Відсутні у продажу";
+$MESS ['STB_ORDER_PROMT'] = "Для того щоб почати оформлення замовлення, натисніть кнопку \"Оформити замовлення\".";
+$MESS ['STB_COUPON_PROMT'] = "Якщо у вас є код купона для отримання знижки, введіть його тут:";
+$MESS ['SALE_VAT'] = "ПДВ:";
+$MESS ['SALE_VAT_INCLUDED'] = "У тому числі ПДВ:";
+$MESS ['SALE_TOTAL'] = "Разом:";
+$MESS ['SALE_CONTENT_DISCOUNT'] = "Знижка";
+$MESS ['SALE_DISCOUNT'] = "Знижка";
+$MESS ['SALE_ACTION'] = "Дії";
+$MESS ['SALE_UPDATE'] = "Перерахувати";
+$MESS ['SALE_ADD_CART'] = "Додати до замовлення";
+$MESS ['SALE_ALL_WEIGHT'] = "Загальна вага";
+$MESS ['SALE_COUPON_VAL'] = "введіть код купона для знижки";
+$MESS ['SALE_PRD_IN_BASKET'] = "Товари в кошику:";
+$MESS ['SALE_PRD_IN_BASKET_ACT'] = "готові до замовлення";
+$MESS ['SALE_PRD_IN_BASKET_SHELVE'] = "відкладені";
+$MESS ['SALE_PRD_IN_BASKET_NOTA'] = "відсутні у продажу";
+$MESS ['SALE_NO_ACTIVE_PRD'] = "У вашому кошику поки немає товарів, готових до замовлення.";
+?>

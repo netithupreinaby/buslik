@@ -1,0 +1,1 @@
+<?if(method_exists($this, 'setFrameMode')) $this->setFrameMode(true);?>

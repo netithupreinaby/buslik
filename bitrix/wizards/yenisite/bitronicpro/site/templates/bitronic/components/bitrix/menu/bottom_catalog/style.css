@@ -1,0 +1,7 @@
+.iblocktype {/* color: #888888; */ font-weight: bold; font-size: 11px; display: block;  font-weight: bold; margin-top: 4px;}
+.iblocktype a{   font-weight: bold; font-size: 11px; display: inline-block;  }
+.iblock { font-size: 10px; color: #cccccc; font-weight: normal; display: block; }
+.iblock a{/* color: #888888; */ font-weight: normal; font-size: 10px; }
+
+.block_inner {float: left; width: 200px; margin: 10px; text-align: justify; }
+.block_container {margin-bottom: 20px; margin-left: 15px; width: 95%; float: left; margin-top: 0;}

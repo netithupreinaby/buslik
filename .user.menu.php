@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Корзина",
+		"/user/profile/cart/",
+		Array(), 
+		Array(),
+		"" 
+	),
+	Array(
+		"Заказы",
+		"/user/profile/orders/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Бонусы",
+		"/user/profile/bonuses/",
+		Array(), 
+		Array(),
+		"" 
+	),
+	Array(
+		"Избранное",
+		"/user/profile/favorite/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Ожидания",
+		"user/profile/waitings/",
+		Array(),
+		Array(),
+		""
+	),
+	Array(
+		"Настройки",
+		"/user/profile/settings/login/",
+		Array(),
+		Array(),
+		""
+	),
+);
+?>

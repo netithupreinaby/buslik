@@ -1,0 +1,33 @@
+.ys-work {
+	float: left;
+	margin-right: 3px;
+	width: 7px;
+	height: 2px;
+	background: #35ab01;
+}
+
+.ys-weekend {
+	float: left; 
+	margin-right: 3px;
+	width: 7px;
+	height: 2px;
+	background: #c41e3a;
+}	
+
+#ys-time-work {
+	position: absolute;
+	top: 75px;
+	color: #35ab01;
+}	
+
+#ys-time-weekend {
+	position: absolute;
+	top: 87px;
+	color: #c41e3a;
+}
+
+#ys-lunch {
+	position: absolute;
+	top: 101px;
+	display:none;
+}

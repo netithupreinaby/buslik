@@ -1,0 +1,94 @@
+Примеры файлов синхронизации и алгоритм ручной отладки импорта из 1С в интернет магазин Битрикс Управление сайтом (товары, предложения, hl блоки). 
+
+Делюсь своими наработками в области синхронизации интернет магазина на базе 1С-Битрикс и 1С. 
+
+Информация о синхронизации на сайте 1С-Битрикс: http://dev.1c-bitrix.ru/api_help/sale/algorithms/data_2_site.php
+
+В приложении к посту пример файлов обработки синхронизации. В нем скопированы компоненты импорта, экспорта для каталога и заказов. 
+Помещать его нужно в папку /local/components/
+
+По адресу /local/components/shef.1c/admin/1c_exchange.php будет находиться ваш новый скрипт синхронизации. 
+Он умеет указывать единицу измерения и коэффициент для торгового предложения. 
+
+Примеры файлов участвующих в синхронизации лежат в папке /local/components/shef.1c/demo/:
+import.xml - пример для синхронизации товаров, их папок, свойствах. 
+offers.xml -  пример для синхронизации информации о торговых предложений товаров и их свойствах. Учитывает единицу измерения и коэффициент. Тут же пример свойства связанного с hl блоком. 
+prices.xml - пример для синхронизации цен предложений со складами (базовая цена)
+rests.xml - пример для синхронизации остатков предложений со складами
+references-colors.xml - пример для импорта справочника в hl блок (справочник цветов)
+
+Алгоритм отладки
+
+Загрузка номенклатуры, цен и остатков
+1. Стучимся сюда. Тут попросят логин и пароль. Можно передать как base авторизацию
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=checkauth
+
+Получаем ответ:
+success
+PHPSESSID
+6565547ea45edebe149c1f09e87d7c9d
+sessid=3c5139008fc7b2685728c710d76aeb5b
+timestamp=1439386400
+
+2. Инициализируем соединение
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=init&sessid=3c5139008fc7b2685728c710d76aeb5b&version=2.05
+
+Получаем ответ:
+zip=yes
+file_limit=204800
+
+3. Отправляем файл import.xml
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=file&filename=import.xml&sessid=3c5139008fc7b2685728c710d76aeb5b
+Получаем ответ:
+success
+
+4. Импортируем файл import.xml
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=import&filename=import.xml&sessid=3c5139008fc7b2685728c710d76aeb5b
+Получаем ответ:
+progress - //вызываем много раз, пока не получим success
+success
+
+5. Повторяем шаги 3 и 4 для файла offers.xml
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=file&filename=offers.xml&sessid=3c5139008fc7b2685728c710d76aeb5b
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=import&filename=offers.xml&sessid=3c5139008fc7b2685728c710d76aeb5b
+
+6. Повторяем шаги 3 и 4 для файла prices.xml
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=file&filename=prices.xml&sessid=3c5139008fc7b2685728c710d76aeb5b
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=import&filename=prices.xml&sessid=3c5139008fc7b2685728c710d76aeb5b
+
+7. Повторяем шаги 3 и 4 для файла rests.xml
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=file&filename=rests.xml&sessid=3c5139008fc7b2685728c710d76aeb5b
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=catalog&mode=import&filename=rests.xml&sessid=3c5139008fc7b2685728c710d76aeb5b
+
+Загрзка hl блока (цвета)
+1. Стучимся сюда вместе с http-авторизацией
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=reference&mode=checkauth
+
+Получаем ответ:
+success
+PHPSESSID
+bef836e9069350922abc2347a33e915c
+sessid=bef836e9069350922abc2347a33e915c
+timestamp=1439386400
+
+
+2. Инициализируем соединение
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=reference&mode=init&sessid=bef836e9069350922abc2347a33e915c&version=2.05
+
+Получаем ответ:
+zip=yes
+file_limit=204800
+
+3. Отправляем файл references-colors.xml
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=reference&mode=file&filename=references-colors.xml&sessid=bef836e9069350922abc2347a33e915c
+
+4. Импортируем файл references-colors.xml
+http://site.com/local/components/shef.1c/admin/1c_exchange.php?type=reference&mode=import&filename=references-colors.xml&sessid=bef836e9069350922abc2347a33e915c
+
+Включение старого режима работы синхронизации
+COption::SetOptionString("catalog", "DEFAULT_SKIP_SOURCE_CHECK", "Y" ); 
+COption::SetOptionString("sale", "secure_1c_exchange", "N" );
+
+Выключение старого режима работы синхронизации
+COption::SetOptionString("catalog", "DEFAULT_SKIP_SOURCE_CHECK", "N" ); 
+COption::SetOptionString("sale", "secure_1c_exchange", "Y" );

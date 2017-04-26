@@ -1,0 +1,38 @@
+table.profiles {
+border: 0px;
+border-spacing: 0px;
+}
+table.profiles td{
+padding: 5px;
+vertical-align: top;
+/*width: 60%;*/
+
+}
+
+table.sale_order_full_table td{
+padding: 0px !important;
+}
+
+td.hide
+{
+width: 0% !important;
+}
+
+td.no-hide
+{
+width: 100% !important;
+}
+
+.colLeft{
+		width:100px;
+		float:left;
+		position:relative;
+}
+.colRightContainer{
+		float:right;
+		width:100%;
+		margin-left:-100px;
+}
+.colRight{
+		margin-left:120px;
+}

@@ -1,0 +1,7 @@
+<?
+$MESS['PO_PRICE'] ='цене';
+$MESS['PO_NAME'] ='названию';
+$MESS['PO_POPULAR'] ='популярности';
+$MESS['SORT'] ='Сортировка';
+$MESS['FILTER'] ='Параметры';
+?>

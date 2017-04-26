@@ -1,0 +1,112 @@
+/*Table*/
+table.sale_basket_basket
+{
+	width:100%;
+	background-color:#F9FAFB;
+	border-collapse:collapse;
+	font-size:12px;
+}
+
+/*Table head*/
+table.sale_basket_basket th
+{
+	background-image:url(images/table_head.gif);
+	background-repeat:repeat-x;
+	text-align: left;
+	color:#25639A;
+}
+
+/* Table cells and heads*/
+table.sale_basket_basket th, table.sale_basket_basket td
+{
+	border:1px solid #ADC3D5;
+	padding: 3px 5px;
+	vertical-align:top;
+}
+
+.user_basket .sum div 
+{
+	margin-bottom: 5px;
+}
+
+.user_basket .cupon input.good{
+	border:1px solid #59a62a;
+	background:rgba(89,166,42,.16);
+	box-shadow:0 0 2px 0 rgba(89,166,42,.8);
+}
+.user_basket .cupon input.bad{
+	border:1px solid #e16565;
+	background:rgba(225,101,101,.16);
+	box-shadow:0 0 2px 0 rgba(225,101,101,.8);
+}
+
+.user_basket .ibcount {
+	width: 105px;
+}
+.user_basket .w32 {
+	width: 45px;
+}
+
+
+/* FOR SELECTBOX */
+
+.user_basket .ye-prop {
+	margin-left: 10px;
+}
+.user_basket .ye-props {
+	display: flex;
+	margin-top: 5px;
+}
+
+.item_links {
+	margin-right: 10px;
+}
+
+.user_basket select.toggle-list, .user_basket .selectBox{
+    border: medium none !important;
+    height: 25px !important;
+    padding: 5px 5px 0 !important;
+    width: 170px !important;
+	
+	margin-bottom: 10px;
+}
+
+.user_basket input.checkbox, .user_basket select, .user_basket .selectBox  {
+    cursor: pointer !important;
+}
+.user_basket .selectBox-dropdown {
+    color: #000000 !important;
+    min-width: 150px !important;
+    outline: medium none !important;
+    position: relative !important;
+    text-decoration: none !important;
+    vertical-align: middle !important;
+}
+.user_basket .selectBox-arrow  {
+    background: url("../../../../static/img/search-arrow.png") no-repeat scroll center center transparent !important;
+}
+.user_basket .selectBox-dropdown .selectBox-arrow{
+    height: 100% !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 23px !important;
+}
+
+.user_basket select.toggle-list, .user_basket .selectBox  {
+    background: url("../../../../static/img/sb_select_ice.png") no-repeat scroll left top transparent;
+}
+
+.user_basket .set-item {
+	float: left; 
+	height: 80px; 
+	width: 45%;
+}
+
+.user_basket .set-but{
+	position: absolute; 
+	bottom: 30px; 
+	right: 30px;
+}
+
+.selectBox-dropdown-menu {height: 150px !important;}

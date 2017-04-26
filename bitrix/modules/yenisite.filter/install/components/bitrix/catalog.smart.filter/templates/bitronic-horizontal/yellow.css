@@ -1,0 +1,223 @@
+.ye_filter .txt, .ye_filter textarea {
+    border: 1px solid #c0c0c0 !important;
+}
+
+.ye_filter .txt:hover, .ye_filter textarea:hover {
+    border-color: #939393 !important;
+}
+
+.ye_filter .txt:focus, .ye_filter textarea:focus {
+    border-color: #005edd !important;
+}
+.ye_filter div.checker span{
+    width:15px !important;
+    height:15px !important;
+}
+.ye_filter .checker span {
+   /*  background: url(img/yellow_ch_bg.png) top left no-repeat !important; */
+    background: url(img/yell_checkbox.png) 0px 0px  no-repeat !important;
+}
+
+.ye_filter .checker:hover span,
+.ye_filter .checker.active span,
+.ye_filter .checker.focus span,
+.ye_filter .checker:hover span {
+   /*  background: url(img/yellow_ch_bg_hover.png) top left no-repeat !important; */
+    background-position:0px -19px !important;
+    cursor: pointer !important;
+}
+
+.ye_filter .checker span.checked,
+.ye_filter .checker span.checked:hover {
+   /*  background: url(img/yellow_ch_bg_active.png) top left no-repeat !important; */
+   background-position: 0px -38px !important;
+}
+
+.ye_filter {
+    background: #fafafa !important;
+}
+
+/***********************/
+.ye_filter  .ui-widget-header, .ye_filter  .ye_limit_range {
+  -webkit-border-radius: 3px/2px !important;
+    -moz-border-radius: 3px/2px !important;
+    border-radius: 3px/2px !important;
+    background-color: #259c01 !important;
+    -webkit-box-shadow: inset 0 1px #fff700 !important;
+    -moz-box-shadow: inset 0 1px #fff700 !important;
+    box-shadow: inset 0 1px #fff700 !important;
+    border: solid 1px #ffbd00 !important;
+    background-image: -webkit-linear-gradient(bottom, #ffae00, #ffda00 78%) !important;
+    background-image: -moz-linear-gradient(bottom, #ffae00, #ffda00 78%) !important;
+    background-image: -o-linear-gradient(bottom, #ffae00, #ffda00 78%) !important;
+    background-image: -ms-linear-gradient(bottom, #ffae00, #ffda00 78%) !important;
+    background-image: linear-gradient(to top, #ffae00, #ffda00 78%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffae00', endColorstr='#ffda00');
+
+}
+
+.ye_filter  .ui-widget-header:hover, .ye_filter  .ye_limit_range:hover {
+    background-color: #259c01 !important;
+    -webkit-box-shadow: inset 0 1px #fff700 !important;
+    -moz-box-shadow: inset 0 1px #fff700 !important;
+    box-shadow: inset 0 1px #fff700 !important;
+    border: solid 1px #ffd763 !important;
+    background-image: -webkit-linear-gradient(bottom, #ffc74e, #ffef8e 78%) !important;
+    background-image: -moz-linear-gradient(bottom, #ffc74e, #ffef8e 78%) !important;
+    background-image: -o-linear-gradient(bottom, #ffc74e, #ffef8e 78%) !important;
+     background-image: -ms-linear-gradient(bottom, #ffc74e, #ffef8e 78%) !important;
+    background-image: linear-gradient(to top, #ffc74e, #ffef8e 78%) !important;
+    cursor: pointer !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffc74e', endColorstr='#ffef8e');
+}
+
+
+.ye_filter  .ui-widget-header:active, .ye_filter  .ye_limit_range:active {
+    background-color: #259c01 !important;
+    -webkit-box-shadow: inset 0 1px #fff700 !important;
+    -moz-box-shadow: inset 0 1px #fff700 !important;
+    box-shadow: inset 0 1px #fff700 !important;
+    border: solid 1px #ffbd00 !important;
+    background-image: -webkit-linear-gradient(top, #ffae00, #ffda00 78%) !important;
+    background-image: -moz-linear-gradient(top, #ffae00, #ffda00 78%) !important;
+    background-image: -o-linear-gradient(top, #ffae00, #ffda00 78%) !important;
+    background-image: -ms-linear-gradient(top, #ffae00, #ffda00 78%) !important;
+    background-image: linear-gradient(to bottom, #ffae00, #ffda00 78%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffae00', endColorstr='#ffda00');
+
+}
+
+.ye_filter .ui-slider-handle, .ye_filter .ye_limit_handle {
+    border-radius: 0 !important;
+    background: url(img/yellow_bul1.png) 0 0 no-repeat !important;
+}
+
+.ye_filter .ui-slider-handle:hover, .ye_filter .ye_limit_handle:hover {
+    background-position: 0 -17px !important;
+}
+
+.ye_filter .ye_limit_handle:active,.ye_filter .ui-slider-handle.ui-state-active {
+    background-position: 0 -34px !important;
+}
+
+
+.button, .button1, .button2, .button3, .button4, .button5, .button7, .button8, .button9, .button13, .button14 {
+    background-color: #ffaa00;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffdc00), color-stop(100%, #ffaa00));
+    background-image: -webkit-linear-gradient(top, #ffdc00, #ffaa00);
+    background-image: -moz-linear-gradient(top, #ffdc00, #ffaa00);
+    background-image: -ms-linear-gradient(top, #ffdc00, #ffaa00);
+    background-image: -o-linear-gradient(top, #ffdc00, #ffaa00);
+    background-image: linear-gradient(top, #ffdc00, #ffaa00);
+    border: 1px solid #ffbc00;
+    box-shadow: 0 1px 0 0 #fff500 inset;
+    color: #fff !important;
+    text-shadow: 0 -1px 0 #e1a600;
+}
+
+.button:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button7:hover, .button8:hover, .button9:hover, .button13:hover, .button14:hover {
+    background: #ffbc00;
+    box-shadow: 0 1px 0 0 #ffeb00 inset;
+}
+
+.button:active, .button1:active, .button2:active, .button3:active, .button4:active, .button5:active, .button7:active, .button8:active, .button9:active, .button13:active, .button14:active {
+    background-color: #ffb400;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb400), color-stop(100%, #fdd900));
+    background-image: -webkit-linear-gradient(top, #ffb400, #fdd900);
+    background-image: -moz-linear-gradient(top, #ffb400, #fdd900);
+    background-image: -ms-linear-gradient(top, #ffb400, #fdd900);
+    background-image: -o-linear-gradient(top, #ffb400, #fdd900);
+    background-image: linear-gradient(top, #ffb400, #fdd900);
+    box-shadow: inset 2px 2px 5px 1px #c88500 !important;
+}
+
+/***********************/
+
+.ya_pole .ye_tit:hover {
+    color: #5a5a5a;
+    border-color: #a2a2a2;
+}
+
+.ya_pole .ye_q a {
+    color: #005edd !important;
+    border-color: #6fa4ec !important;
+}
+
+.ya_pole .ye_q a:hover {
+    color: #5a5a5a !important;
+    border-color: #a2a2a2 !important;
+}
+
+
+
+.ye_result {
+    background: #fffcbd;
+    border: 2px solid #ffbc00 !important;
+}
+
+
+/* 
+.ye_result .ye_result_txt{
+    color: #2e7af9;
+    background-color: rgba(244,236,231,0) !important;
+    border: solid 1px #2e7af9 !important;
+    
+}
+ */
+
+.ye_more button .sym {
+    color: #005edd !important
+}
+
+.button12 {
+    color: #0660CF !important;
+}
+
+.button12:hover {
+    color: #5a5a5a !important;
+}
+
+.button12:active, .button12.active {
+    background: #ededed !important;
+    box-shadow: 1px 2px 3px #c1c1c1 inset !important;
+    border: 1px solid #d7d7d7 !important;
+    color: #5a5a5a !important;
+}
+
+#wrapper .f_loader {
+    color: #005edd;  
+}
+
+.ye_filter .more_txt{
+    color: #000;
+    text-shadow: 0 1px #ffda00;
+}
+
+
+.ye_filter .show_filtr {
+  background: url('img/yell_show_filtr.png')0 -43px;
+}
+
+.ye_filter .show_filtr:hover {
+  background-position: 0 0;
+}
+
+ 
+.ye_filter .hide_filtr {
+    background: url('img/yell_hide_filtr.png')0 0;
+}
+.ye_filter .hide_filtr:hover {
+    background-position: 0 -43px;
+}
+/*-----Kombox style-----*/
+.irs-line-mid {
+    background: none repeat scroll 0 0 #000 !important;
+}
+
+.irs-slider.from {
+    background: url("../img/yellow_bul.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.irs-slider.to {
+    background: url("../img/yellow_bul.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}

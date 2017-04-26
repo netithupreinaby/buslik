@@ -1,0 +1,71 @@
+.item_detail_options {
+	margin-right: 8px;
+}
+
+.props {
+	margin-bottom: 20px;
+}
+
+.ye-select {
+	margin-bottom: 10px;
+}
+
+.item_detail_options select.toggle-list, .item_detail_options .selectBox {
+    border: medium none !important;
+    height: 25px !important;
+    padding: 5px 5px 0 !important;
+    width: 170px !important;
+}
+.item_detail_options input.checkbox, .item_detail_options select, .item_detail_options .selectBox {
+    cursor: pointer !important;
+}
+.item_detail_options .selectBox-dropdown {
+    color: #000000 !important;
+    min-width: 150px !important;
+    outline: medium none !important;
+    position: relative !important;
+    text-decoration: none !important;
+    vertical-align: middle !important;
+}
+.item_detail_options .selectBox-arrow {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/search-arrow.png") no-repeat scroll center center transparent !important;
+}
+.item_detail_options .selectBox-dropdown .selectBox-arrow {
+    height: 100% !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 23px !important;
+}
+
+.item_detail_options select.toggle-list, .item_detail_options .selectBox {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/sb_select_ice.png") no-repeat scroll left top transparent;
+}
+
+.item_detail_options .set-item {float: left; height: 80px; width: 45%;}
+.item_detail_options .set-but {position: absolute; bottom: 30px; right: 30px;}
+
+.item_detail_options.services {background: transparent; clear:right;}
+
+.selectBox-dropdown-menu {height: 150px !important;}
+.announce_padding {
+padding-bottom: 20px!important;}
+/*	STORES	*/
+div.ys-stores { width: 100%; padding-top: 10px;}
+div.ys-store-detail {  width: 100%;}
+div.ys-store-detail p { clear:both; position: relative;  font-weight:normal; margin: 0 0 0px !important; padding-top:2px !important;}
+div.ys-store-detail .none { color:red;}
+div.ys-store-detail .little { color:orange;}
+div.ys-store-detail .much { color:green;}
+div.ys-store-detail span.support {font-weight: bold; clear:both; float: left; position: relative; top: 0.31em; padding-right: 3px; padding-left: 5px;}
+div.ys-store-detail span.info {   float: left; position: relative; top: 0.31em; padding-right: 3px; padding-left: 5px;}
+div.ys-store-detail span.ys-store-title {   float: left; position: relative; top: 0.31em; padding-right: 3px;  padding-left: 0px !important;}
+
+div#ys-price_lower-popup, div#ys-element_exist-popup, div#ys-found_cheap-popup {
+    /*margin: 50px 0 0 -295px;*/
+    /*padding-bottom: 20px;*/
+    width: 548px;
+    z-index: 999;
+}
+
+

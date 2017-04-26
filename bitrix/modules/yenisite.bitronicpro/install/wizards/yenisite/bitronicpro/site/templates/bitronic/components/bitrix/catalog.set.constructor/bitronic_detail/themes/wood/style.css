@@ -1,0 +1,10 @@
+.bx_modal_container.bx_wood .bx_bt_button {
+
+}
+
+.bx_modal_container.bx_wood .bx_big.bx_bt_button.bx_cart span{
+	background:url(images/bt_cart.png) no-repeat center;
+}
+table.popup-window.bitronic a.button2 {
+	border: 1px solid #6fa4ec !important;
+}

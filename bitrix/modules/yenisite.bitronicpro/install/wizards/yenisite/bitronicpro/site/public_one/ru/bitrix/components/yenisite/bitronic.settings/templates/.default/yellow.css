@@ -1,0 +1,20 @@
+#ys-bitronic-settings .ys_slider {
+    height: 5px;
+    padding: 0;
+    width: 170px;
+    background: #ededed !important;
+    border-radius: 5px !important;
+}
+
+#ys-bitronic-settings .ui-slider-handle {
+    background: url("img/yellow_bul.png") no-repeat scroll 0 0 transparent !important;
+}
+
+div#slider-opacity {
+    width: 60px;
+    float: left;
+    margin: 5px;
+    height: 5px;
+    background: #ededed !important;
+    border-radius: 5px !important;
+}

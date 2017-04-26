@@ -1,0 +1,231 @@
+
+@font-face{ 
+	font-family: 'WebSymbolsRegular';
+	src: url('fonts/websymbols-regular-webfont.eot');
+	src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/websymbols-regular-webfont.woff') format('woff'),
+	     url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+	     url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@font-face{ 
+	font-family: 'Rubl';
+	src: url('fonts/alsrubl-arial-regulart.eot');
+	src: url('fonts/alsrubl-arial-regular.eot?#iefix') format('embedded-opentype'),
+	     url('fonts/alsrubl-arial-regular.woff') format('woff'),
+	     url('fonts/alsrubl-arial-regular.ttf') format('truetype'),
+	     url('fonts/alsrubl-arial-regular.svg#WebSymbolsRegular') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+
+.ys-user-basket{
+	font: 12px/18px Arial,Tahoma,Verdana,sans-serif !important; 
+}
+
+.ys-user-basket table {
+    margin-bottom: 30px !important;
+    width: 100% !important;
+}
+
+.ys-user-basket table td {
+    padding-bottom: 20px !important;
+}
+.ys-ibimg {
+    width: 80px !important;
+}
+.ys-ibname {
+    vertical-align: top !important;
+}
+.ys-ibprice {
+    width: 15% !important;
+}
+.ys-ibcount {
+    text-align: right !important;
+    width: 90px;
+}
+.ys-ibdel {
+    text-align: right !important;
+    width: 5%;
+}
+.ys-user-basket div.make_order {
+    margin-bottom: 60px !important;
+    border-top: 1px solid #CCCCCC !important;
+    padding: 20px 0 0 !important;
+    text-align: right !important;
+}
+
+.ys-sum {
+    font-size: 14px !important;
+    padding: 0 10px 0 0 !important;
+    position: relative !important;
+    top: 0 !important;
+}
+
+.ys-user-basket .txt, .ys-user-basket textarea {
+    border-radius: 3px 3px 3px 3px !important;
+    box-shadow: 0 2px 2px #D0D0D0 inset !important;
+    padding: 6px 10px !important;
+}
+
+.ys-user-basket .txt:hover, .ys-user-basket textarea:hover {
+    box-shadow: 0 2px 2px #DFDFDF inset !important;
+ }
+
+
+.ys-user-basket textarea {
+    width: 500px;
+}
+
+
+input, select, textarea {
+    font: 12px/18px Arial,Helvetica,sans-serif !important;
+}
+
+.ys-user-basket img {
+    border: medium none !important;
+}
+
+.ys-user-basket .ibname h3 {
+    margin: 0 !important;
+}
+
+.ys-user-basket h3, .ys-user-basket .slider h3 {
+    color: #35AB01 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    margin-bottom: 7px !important;
+}
+
+.ys-user-basket input.w32 {
+    float: left !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    margin-right: 10px !important;
+    padding: 4px 0 !important;
+    text-align: center !important;
+    width: 30px !important;
+}
+
+.ys-user-basket .ibcount .button4, .ys-user-basket .ibcount .button5 {
+    position: relative !important;
+    top: 3px !important;
+}
+
+
+.ys-user-basket .button, .ys-user-basket .button1, .ys-user-basket .button2, .ys-user-basket .button3, .ys-user-basket .button4, .ys-user-basket .button5, .ys-user-basket .button6, .button7, .ys-user-basket .button8, .ys-user-basket .button9, .ys-user-basket .button10, .ys-user-basket .button11, .ys-user-basket .button12, .ys-user-basket .button13, .ys-user-basket .button14, .ys-user-basket .new-label {
+    border-radius: 3px 3px 3px 3px !important;
+    font-size: 14px !important;
+    padding: 5px 16px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+.ys-user-basket .button4,  .ys-user-basket .button5 {
+    font-size: 14px !important;
+    font-weight: bold !important;
+    padding: 1px 4px !important;
+    width: 20px !important;
+}
+
+.ys-user-basket .button6 {
+    background-color: #F55656 !important;
+    background-image: -moz-linear-gradient(center top , #FD6B6B, #E93636) !important;
+    border: 1px solid #E93636 !important;
+    box-shadow: 0 1px 0 0 #FFBFBF inset, 0 2px 0 0 #E5E5E5 !important;
+    color: #FFFFFF !important;
+    font-size: 11px !important;
+    margin-left: 19px !important;
+    padding: 2px 1px !important;
+    text-shadow: 0 -1px 0 #E93636 !important;
+    width: 20px !important;
+}
+
+.ys-user-basket .sym {
+    font-family: WebSymbolsRegular !important;
+}
+
+.ys-user-basket .txt:hover, .ys-user-basket textarea:hover, .ys-user-basket .txt:focus, .ys-user-basket textarea:focus {
+    box-shadow: 0 2px 2px #DFDFDF inset;
+}
+
+.ys-user-basket .sum {
+    font-size: 14px;
+    padding: 0 10px 0 0;
+    position: relative;
+    top: 0;
+}
+.ys-user-basket .sum strong {
+    font-size: 18px;
+}
+.ys-user-basket .button, .ys-user-basket .button1, .ys-user-basket .button2, .ys-user-basket .button3, .ys-user-basket .button4, .ys-user-basket .button5, .ys-user-basket .button6, .ys-user-basket .button7,.ys-user-basket .button8, .ys-user-basket .button9,.ys-user-basket .button10, .ys-user-basket .button11, .ys-user-basket .button12,.ys-user-basket .button13,.ys-user-basket .button14, .ys-user-basket .new-label {
+    border-radius: 3px 3px 3px 3px;
+    font-size: 14px;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.ys-user-basket .button:hover, .ys-user-basket .button1:hover, .ys-user-basket .button2:hover, .ys-user-basket .button3:hover, .ys-user-basket .button4:hover, .ys-user-basket .button5:hover, .ys-user-basket .button6:hover, .ys-user-basket .button7:hover, .ys-user-basket .button8:hover, .ys-user-basket .button9:hover, .ys-user-basket .button10:hover, .ys-user-basket .button11:hover, .ys-user-basket .button12:hover, .ys-user-basket .button13:hover, .ys-user-basket .button14:hover {
+    cursor: pointer;
+}
+.ys-user-basket .button:active, .ys-user-basket .button1:active, .ys-user-basket .button2:active, .ys-user-basket .button3:active, .ys-user-basket .button4:active, .ys-user-basket .button5:active, .ys-user-basket .button6:active, .ys-user-basket .button7:active, .ys-user-basket .button8:active, .ys-user-basket .button9:active, .ys-user-basket .button13:active, .ys-user-basket .button14:active {
+    box-shadow: none !important;
+}
+
+.ys-user-basket .price {
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.ys-user-basket span.rubl {
+    border: medium none !important;
+    font-family: 'Rubl';
+}
+
+.ys-user-basket .txt, .ys-user-basket textarea {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 2px #D0D0D0 inset;
+    padding: 6px 10px;
+}
+
+.ys-user-basket .button3 {
+    font-size: 16px !important;
+    font-weight: bold !important;
+    padding: 8px 13px !important;
+}
+
+.ys-sum {
+    font-size: 14px !important;
+    padding: 0 10px 0 0 !important;
+    position: relative !important;
+    top: 0 !important;
+}
+
+.ys-sum strong {
+    font-size: 18px !important;
+}
+
+.ys-delivery {
+    font-size: 14px !important;
+    padding: 0 10px 0 0 !important;
+    position: relative !important;
+    top: 0 !important;
+}
+
+.ys-delivery strong {
+    font-size: 18px !important;
+}
+
+/* BACK_END_STYLES */
+
+.location-selector
+{
+    width: 329px;
+    display: inline-block;
+}
+.label-location{
+    vertical-align: top;
+}

@@ -1,0 +1,74 @@
+<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?if(strlen($arResult["ERROR_MESSAGE"])>0)
+	print_r( "<script>jGrowl('".$arResult['ERROR_MESSAGE']."','ok');</script>");
+	//ShowError($arResult["ERROR_MESSAGE"]);	OLD ERROR MESSAGE (04.03.2013)?>
+<?if(strlen($arResult["NAV_STRING"]) > 0):?>
+	<p><?=$arResult["NAV_STRING"]?></p>
+<?endif?>
+
+<div class="salers_profiles">
+                    <table>
+                        <tr>
+							 <th><?=GetMessage("P_ID")?></th>
+							<th><?=GetMessage("P_DATE_UPDATE")?></th>
+							<th><?=GetMessage("P_NAME")?><br /></th>
+							<th><?=GetMessage("P_PERSON_TYPE")?></th>
+							<th><?=GetMessage("SALE_ACTION")?></th>
+                        </tr>
+						<?foreach($arResult["PROFILES"] as $val):?>
+                        <tr>
+                        	<td><?=$val["ID"]?></td>
+                        	<td><?=$val["DATE_UPDATE"]?></td>
+                        	<td><?=$val["NAME"]?></td>
+                            <td><?=$val["PERSON_TYPE"]["NAME"]?></td>
+                            <td>
+							
+							<a class="edit" title="<?= GetMessage("SALE_DETAIL_DESCR") ?>" href="<?=$val["URL_TO_DETAIL"]?>">
+<button class="button14">
+<span></span>
+</button>
+</a>
+							<a class="del" title="<?= GetMessage("SALE_DELETE_DESCR") ?>" href="javascript:if(confirm('<?= GetMessage("STPPL_DELETE_CONFIRM") ?>')) window.location='<?=$val["URL_TO_DETELE"]?>'">
+<button class="button13 sym">&#206;</button>
+</a>
+							
+							</td>
+                        </tr>
+						<?endforeach?>
+                    </table>
+					
+					<?if(strlen($arResult["NAV_STRING"]) > 0):?>
+						<p><?=$arResult["NAV_STRING"]?></p>
+					<?endif?>				
+
+                
+                </div><!--.salers_profiles-->
+
+<a class="button" href="<?=SITE_DIR?>personal/create_profile.php"><?=GetMessage("SALE_CREATE_DESCR")?></a>
+				
+<?return?>				
+
+<table class="sale_personal_profile_list data-table">
+	<tr>
+		<th><?=GetMessage("P_ID")?><br /><?=SortingEx("ID")?></th>
+		<th><?=GetMessage("P_DATE_UPDATE")?><br /><?=SortingEx("DATE_UPDATE")?></th>
+		<th><?=GetMessage("P_NAME")?><br /><?=SortingEx("NAME")?></th>
+		<th><?=GetMessage("P_PERSON_TYPE")?><br /><?=SortingEx("PERSON_TYPE_ID")?></th>
+		<th><?=GetMessage("SALE_ACTION")?></th>
+	</tr>
+	<?foreach($arResult["PROFILES"] as $val):?>
+		<tr>
+			<td><b><?=$val["ID"]?></b></td>
+			<td><?=$val["DATE_UPDATE"]?></td>
+			<td><?=$val["NAME"]?></td>
+			<td><?=$val["PERSON_TYPE"]["NAME"]?></td>
+			<td><a title="<?= GetMessage("SALE_DETAIL_DESCR") ?>" href="<?=$val["URL_TO_DETAIL"]?>"><?= GetMessage("SALE_DETAIL") ?></a><br />
+				<a title="<?= GetMessage("SALE_DELETE_DESCR") ?>" href="javascript:if(confirm('<?= GetMessage("STPPL_DELETE_CONFIRM") ?>')) window.location='<?=$val["URL_TO_DETELE"]?>'"><?= GetMessage("SALE_DELETE")?></a></td>
+			</td>
+		</tr>
+	<?endforeach;?>
+</table>
+<?if(strlen($arResult["NAV_STRING"]) > 0):?>
+	<p><?=$arResult["NAV_STRING"]?></p>
+<?endif?>
+

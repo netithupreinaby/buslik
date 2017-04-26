@@ -1,0 +1,239 @@
+.ye_filter .txt, .ye_filter textarea {
+    border: 1px solid #c0c0c0 !important;
+}
+
+.ye_filter .txt:hover, .ye_filter textarea:hover {
+    border-color: #939393 !important;
+}
+
+.ye_filter .txt:focus, .ye_filter textarea:focus {
+    border-color: #f15182 !important;
+}
+
+.ye_filter  div.checker span{
+    width:15px !important;
+    height:15px !important;
+}
+.ye_filter .checker span {
+    background: url(img/pink_ckeckbox.png) 0px 0px  no-repeat !important;
+}
+
+.ye_filter .checker:hover span,
+.ye_filter .checker.active span, 
+.ye_filter .checker.focus span, 
+.ye_filter .checker:hover span {
+   /*  background: url(img/pink_ch_bg_hover.png) top left no-repeat !important; */
+    cursor: pointer !important;
+    background-position:  0px -16px !important;
+}
+
+.ye_filter .checker span.checked, 
+.ye_filter .checker span.checked:hover {
+    /* background: url(img/pink_ch_bg_active.png) top left no-repeat !important; */
+    background-position: 0px -34px  !important;
+}
+
+.ye_filter {
+    background: #f7fbff !important;
+}
+
+/***********************/
+
+.ui-widget-header, .ye_limit_range {
+    background: #f15182 !important;
+}
+
+
+.ye_filter  .ui-widget-header, .ye_filter  .ye_limit_range {
+   -webkit-border-radius: 3px/2px !important;
+    -moz-border-radius: 3px/2px !important;
+    border-radius: 3px/2px !important;
+    background-color: #259c01 !important;
+    -webkit-box-shadow: inset 0 1px rgba(255,255,255,.69) !important;
+    -moz-box-shadow: inset 0 1px rgba(255,255,255,.69) !important;
+    box-shadow: inset 0 1px rgba(255,255,255,.69) !important;
+    border: solid 1px #35a3f0 !important;
+    background-image: -webkit-linear-gradient(bottom, #34a3f0, #85cdff) !important;
+    background-image: -moz-linear-gradient(bottom, #34a3f0, #85cdff) !important;
+    background-image: -o-linear-gradient(bottom, #34a3f0, #85cdff) !important;
+    background-image: -ms-linear-gradient(bottom, #34a3f0, #85cdff) !important;
+    background-image: linear-gradient(to top, #34a3f0, #85cdff) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#34a3f0', endColorstr='#85cdff');
+
+}
+
+.ye_filter  .ui-widget-header:hover, .ye_filter  .ye_limit_range:hover {
+    background-color: #259c01 !important;
+    -webkit-box-shadow: inset 0 1px rgba(255,255,255,.69) !important;
+    -moz-box-shadow: inset 0 1px rgba(255,255,255,.69) !important;
+    box-shadow: inset 0 1px rgba(255,255,255,.69) !important;
+    border: solid 1px #6ec3ff !important;
+    background-image: -webkit-linear-gradient(bottom, #79c8ff, #c4e7ff) !important;
+    background-image: -moz-linear-gradient(bottom, #79c8ff, #c4e7ff) !important;
+    background-image: -o-linear-gradient(bottom, #79c8ff, #c4e7ff) !important;
+     background-image: -ms-linear-gradient(bottom, #79c8ff, #c4e7ff) !important;
+    background-image: linear-gradient(to top, #79c8ff, #c4e7ff) !important;
+    cursor: pointer !important;
+     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#79c8ff', endColorstr='#c4e7ff');
+}
+
+
+.ye_filter  .ui-widget-header:active, .ye_filter  .ye_limit_range:active {
+    background-color: #259c01 !important;
+    -webkit-box-shadow: inset 0 1px rgba(255,255,255,.69) !important;
+    -moz-box-shadow: inset 0 1px rgba(255,255,255,.69) !important;
+    box-shadow: inset 0 1px rgba(255,255,255,.69) !important;
+    border: solid 1px #35a3f0 !important;
+    background-image: -webkit-linear-gradient(top, #34a3f0, #85cdff) !important;
+    background-image: -moz-linear-gradient(top, #34a3f0, #85cdff) !important;
+    background-image: -o-linear-gradient(top, #34a3f0, #85cdff) !important;
+       background-image: -ms-linear-gradient(top, #34a3f0, #85cdff) !important;
+    background-image: linear-gradient(to bottom, #34a3f0, #85cdff) !important;
+     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#34a3f0', endColorstr='#85cdff');
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ye_filter .ui-slider-handle, .ye_filter .ye_limit_handle {
+     border-radius: 0 !important;
+    background: url(img/pink_bul1.png) 0 0 no-repeat !important;
+}
+
+.ye_filter .ui-slider-handle:hover, .ye_filter .ye_limit_handle:hover {
+    background-position: 0 -15px !important;
+}
+
+.ye_filter .ye_limit_handle:active,.ye_filter .ui-slider-handle.ui-state-active {
+    background-position: 0 -30px !important;
+}
+
+.button, .button1, .button2, .button3, .button4, .button5, .button7, .button8, .button9, .button13, .button14 {
+    background-color: #35A3F0;
+    background-image: -moz-linear-gradient(center top , #83CCFF, #35A3F0);
+    border: 1px solid #35A3F0;
+    box-shadow: 0 1px 0 0 #C2E6FF inset;
+    color: #FFFFFF !important;
+    text-shadow: 0 -1px 0 #3699DE;
+}
+
+.button:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button7:hover, .button8:hover, .button9:hover, .button13:hover, .button14:hover {
+    background: #3699de;
+    box-shadow: 0 1px 0 0 #9bccef inset;
+}
+
+.button:active, .button1:active, .button2:active, .button3:active, .button4:active, .button5:active, .button7:active, .button8:active, .button9:active, .button13:active, .button14:active {
+    background-color: #ffb400;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #40a9f2), color-stop(100%, #83ccff));
+    background-image: -webkit-linear-gradient(top, #40a9f2, #83ccff);
+    background-image: -moz-linear-gradient(top, #40a9f2, #83ccff);
+    background-image: -ms-linear-gradient(top, #40a9f2, #83ccff);
+    background-image: -o-linear-gradient(top, #40a9f2, #83ccff);
+    background-image: linear-gradient(top, #40a9f2, #83ccff);
+    box-shadow: inset 2px 2px 5px 1px #0674c1 !important;
+    border-color: #fff;
+}
+
+/*****************/
+
+.ya_pole .ye_tit:hover {
+    color: #f15182;
+    border-color: #f79db8;
+}
+
+.ya_pole .ye_q a {
+    color: #3699de;
+    border-color: #8dc5ec !important;
+}
+
+.ya_pole .ye_q a:hover {
+    color: #f15182 !important;
+    border-color: #f79db8 !important;
+}
+
+.ye_result {
+    background: #ffe8ef !important;
+	border: 1px solid #f15182 !important; 
+}
+
+/*
+.ye_result .ye_result_txt{
+    color: #3699de !important;
+    background-color: rgba(244,236,231,0) !important;
+    border: solid 1px  #3699de !important;
+}
+*/
+
+
+.ye_more button .sym {
+    color: #3699de !important;
+}
+
+.button12 {
+    color: #3699de !important;
+    box-shadow: 1px 2px 2px #a2bed2 !important;
+}
+
+.button12:hover {
+    color: #3699de !important;
+}
+
+.button12:active, .button12.active {
+    background: #ffe8ef !important;
+    box-shadow: 1px 2px 3px #efc4d1 inset !important;
+    border: 1px solid #f7d6e0 !important;
+    color: #f15182 !important;
+}
+
+#wrapper .f_loader {
+    color: #3699de;  
+}
+
+
+
+.ye_filter .more_txt{
+    color: #000;
+    text-shadow: 0 1px rgba(255,255,255,.57);
+}
+
+
+.ye_filter a.show_filtr {
+    background: url('img/pin_show_filtr.png')0 0;
+}
+
+.ye_filter .show_filtr:hover {
+  background-position:  0 -43px;
+}
+
+ 
+.ye_filter .hide_filtr {
+    background: url('img/pin_hide_filtr.png')0 0;
+}
+.ye_filter .hide_filtr:hover {
+    background-position: 0 -43px;
+}
+
+/*-----Kombox style-----*/
+.irs-line-mid {
+     background: #f15182 !important;
+}
+
+.irs-slider.from {
+    background: url("../img/pink_bul.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.irs-slider.to {
+    background: url("../img/pink_bul.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}

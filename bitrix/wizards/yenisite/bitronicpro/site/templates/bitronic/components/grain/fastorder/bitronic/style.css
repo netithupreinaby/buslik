@@ -1,0 +1,48 @@
+div.grain-fo-name, div.grain-fo-phone, div.grain-fo-email, div.grain-fo-captcha, div.grain-fo-message {width:80%; padding-bottom:0.4em;}
+div.grain-fo-name input, div.grain-fo-email input, div.grain-fo-phone input {width:60%;}
+span.grain-fo-req {color:red;}
+div.grain-fo-ok-text {color:green; font-weight:bold; padding-bottom: 1em;}
+
+/* ==================== FOR BITRONIC ====================*/
+#add-popup-buy1click{
+	width: 548px !important;
+	padding-bottom: 0 !important;
+}
+#add-popup-buy1click .txt{
+	width: 400px !important;
+}
+.button_v1click {
+	width: 114px !important;
+	display: block !important;
+	margin-top: 14px !important;
+	margin-bottom: -9px !important;
+	text-align: left !important;
+	background-color: #931123 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e05103), color-stop(100%, #931123)) !important;
+	background-image: -webkit-linear-gradient(top, #e05103, #931123) !important;
+	background-image: -moz-linear-gradient(top, #e05103, #931123) !important;
+	background-image: -ms-linear-gradient(top, #e05103, #931123) !important;
+	background-image: -o-linear-gradient(top, #e05103, #931123) !important;
+	background-image: linear-gradient(top, #e05103, #931123) !important;
+	border: 1px solid #660000 !important;
+	box-shadow: 0 1px 0 0 #cc3300 inset !important;
+	color: #fff !important;
+	text-shadow: 0 -1px 0 #931123 !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#e05103', endColorstr='#931123')" !important;
+}
+.button_v1click:hover{
+background: #b93113 !important;
+box-shadow: 0 1px 0 0 #b93113 inset !important;
+}
+.button_v1click:active {
+	background-color: #931123 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #931123), color-stop(100%, #e05103)) !important;
+    background-image: -webkit-linear-gradient(top, #931123, #e05103) !important;
+    background-image: -moz-linear-gradient(top, #931123, #e05103) !important;
+    background-image: -ms-linear-gradient(top, #931123, #e05103) !important;
+    background-image: -o-linear-gradient(top, #931123, #e05103) !important;
+    background-image: linear-gradient(top, #931123, #e05103) !important;
+    box-shadow: inset 2px 2px 5px 1px #660000 !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#931123', endColorstr='#e05103')" !important;
+}
+/* ============================================================ */

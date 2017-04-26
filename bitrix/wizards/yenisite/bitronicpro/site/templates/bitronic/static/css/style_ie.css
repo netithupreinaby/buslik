@@ -1,0 +1,131 @@
+* html #wrapper,
+* html .pay,
+* html .footer-nav,
+* html .columns,
+* html .sim_item_slider {
+	width: expression(
+	(document.compatMode && document.compatMode == 'CSS1Compat') ?
+	(document.documentElement.clientWidth < 960 ? "960px" :
+	(document.documentElement.clientWidth > 1600 ? "1600px" : "auto")) :
+	(document.body.clientWidth > 960 ? "960px" :
+	(document.body.clientWidth < 1600 ? "1600px" : "auto")));
+}
+
+.search input.text,
+form#send-form input.text{
+	padding: 7px 10px 0;
+}
+
+.profile_item .form-item input.w350,
+#amount,
+#login-popup .form-item input,
+.reply-form .form-item input,
+.user_basket input.w32,
+.user_basket input.w180,
+.ordering input.w240,
+.ordering input.w100,
+.param_block input.w80 {
+	padding-top: 7px;
+}
+
+.slider_cat {
+	/* width: 580px; */
+	margin: 0 auto 30px;
+}
+
+.slider_cat li{
+	/*width:240px;*/
+	float: left;
+}
+.item_detail .slider_cat {
+	margin-left:0px !important;
+}
+
+.item-popup,
+.basket-popup,
+.similar_items {
+	border: 1px solid #ccc;
+}
+ 
+.subnav,
+.user_menu {
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.selectBox-dropdown {
+	height: 25px;
+}
+
+.selectBox-dropdown .selectBox-label {
+	display: block;
+	line-height: 16px;
+	padding: 0px 20px 0px;
+}
+
+.show_filter .selectBox-dropdown .selectBox-label {
+	padding: 2px 0 0 5px;
+}
+
+*:first-child+html #uniform-undefined span {
+	position: relative;
+	top: -4px;
+}
+
+*:first-child+html #login-popup .checkbox-item  #uniform-undefined {
+	height: 16px;
+}
+
+*:first-child+html #login-popup .checkbox-item  #uniform-undefined span{
+	position:relative;
+	top:-2px;
+}
+
+*:first-child+html .salers_profiles table { border-bottom:40px solid #fff; }
+*:first-child+html .order_param table{ border-bottom:10px solid #fff; }
+*:first-child+html .order_cont table { border-bottom:20px solid #fff; }
+
+}
+
+
+.filter a  {
+	padding: 11px 8px;
+	line-height: 24px;
+}
+
+*:first-child+html .f_view a span.ws {
+	position: relative;
+	left: -4px;
+}
+
+*:first-child+html .item_detail .slider_cat {
+	margin:0 0 30px;
+}
+*:first-child+html .item_detail .slider_cat li:first-child{
+	width: 360px;
+}
+
+*:first-child+html .reply-form .captcha input.w100,
+*:first-child+html .ordering .captcha input {
+	top: -18px;
+}
+
+*:first-child+html .ordering .checkbox-item .checker  {
+	top: 0;
+}
+
+@media \0screen {
+	.search a.selectBox {
+		right: 90px;
+	}
+}
+
+#ys_filter_bitronic .checker {
+	display: inline !important;
+}
+
+*:first-child+html #ys_filter_bitronic .inputs-filter .button {
+	margin-right: 3px;
+	padding: 6px 2px 6px 2px !important;
+}

@@ -1,0 +1,72 @@
+div.yen-bs-node { box-shadow:#B1B3BA 0px 0px 2px 0px !important; color:black !important;}
+
+a.yen-bs-count_link { border-left-color:#F39E9E !important;border-right-color:#F39E9E !important;border-top-color:#F39E9E !important;color:black !important; }
+
+div.yen-bs-popup { box-shadow:0px 0px 2px #B1B3BA !important;background:white !important; color:black !important;  background-color:white !important; }
+
+input.yen-bs-txt { box-shadow: inset 0 2px 2px #d0d0d0 !important; }
+
+.yen-bs-txt:hover, .yen-bs-txt:focus {box-shadow: inset 0 2px 2px #dfdfdf !important;}
+
+.yen-bs-txt:focus { border-color: #e00c0c !important;}
+
+.yen-bs-button4,  .yen-bs-button5 , .yen-bs-button3 { 
+	background-color: #35ab01 !important ;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7ce331), color-stop(100%, #35ab01)) !important ;
+	background-image: -webkit-linear-gradient(top, #7ce331, #35ab01) !important ;
+	background-image: -moz-linear-gradient(top, #7ce331, #35ab01) !important ;
+	background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f) !important ;
+	background-image: -o-linear-gradient(top, #7fbf4d, #63a62f) !important ;
+	background-image: linear-gradient(top, #7fbf4d, #63a62f) !important ;
+	border: 1px solid #35ab01 !important ;
+	-webkit-box-shadow: 0 2px 0 0 #e5e5e5 !important ;
+	-moz-box-shadow: 0 2px 0 0 #e5e5e5 !important ;
+	box-shadow: 0 1px 0 0 #d6f757 inset, 0 2px 0 0 #e5e5e5 !important ;
+	color: #fff !important ;
+	text-shadow: 0 -1px 0 #15a700 !important ;
+}
+
+button.yen-bs-button3:hover, button.yen-bs-button4:hover, button.yen-bs-button5:hover {
+	cursor:pointer !important;
+	background: #5ac81a !important; box-shadow: 0 1px 0 0 #99ef2c inset, 0 2px 0 0 #e5e5e5 !important;
+}
+
+button.yen-bs-button3:active, button.yen-bs-button4:active, button.yen-bs-button5:active { 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #118400), color-stop(100%, #7ce331)) !important ;
+	background-image: -webkit-linear-gradient(top, #118400, #7ce331) !important ;
+	background-image: -moz-linear-gradient(top, #118400, #7ce331) !important ;
+	background-image: -ms-linear-gradient(top, #118400, #7ce331) !important ;
+	background-image: -o-linear-gradient(top, #118400, #7ce331) !important ;
+	background-image: linear-gradient(top, #118400, #7ce331) !important ;
+}
+div.yen-bs-make_order { border-top: 1px solid #CCC !important; }
+
+button.yen-ys-button6 { font-size: 11px !important ; padding: 2px 1px !important ; margin-left: 19px !important ; 
+	background-color: #f55656 !important ;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fd6b6b), color-stop(100%, #e93636)) !important ;
+	background-image: -webkit-linear-gradient(top, #fd6b6b, #e93636) !important ;
+	background-image: -moz-linear-gradient(top, #fd6b6b, #e93636) !important ;
+	background-image: -ms-linear-gradient(top, #fd6b6b, #e93636) !important ;
+	background-image: -o-linear-gradient(top, #fd6b6b, #e93636) !important ;
+	background-image: linear-gradient(top, #fd6b6b, #e93636) !important ;
+	border: 1px solid #e93636 !important ; 
+	-webkit-box-shadow: 0 1px 0 0 #ffbfbf inset, 0 2px 0 0 #e5e5e5 !important ;
+	-moz-box-shadow: 0 1px 0 0 #ffbfbf inset, 0 2px 0 0 #e5e5e5 !important ;
+	box-shadow: 0 1px 0 0 #ffbfbf inset, 0 2px 0 0 #e5e5e5 !important ;
+	color: #fff  !important ;
+	text-shadow: 0 -1px 0 #e93636 !important ; 
+	width: 20px !important ;
+}
+
+button.yen-ys-button6:hover { cursor:pointer !important ; background: #fa6565 !important ; box-shadow: 0 1px 0 0 #ffbfbf inset, 0 2px 0 0 #e5e5e5 !important ; }
+button.yen-ys-button6:active { 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e93636), color-stop(100%, #fd6b6b)) !important ;
+	background-image: -webkit-linear-gradient(top, #e93636, #fd6b6b) !important ;
+	background-image: -moz-linear-gradient(top, #e93636, #fd6b6b) !important ;
+	background-image: -ms-linear-gradient(top, #e93636, #fd6b6b) !important ;
+	background-image: -o-linear-gradient(top, #e93636, #fd6b6b) !important ;
+	background-image: linear-gradient(top, #e93636, #fd6b6b) !important ;
+}
+
+td.yen-bs-t_name h3 a { color:#35ab01 !important; border-color: #afe996 !important; }
+td.yen-bs-t_name h3 a:hover { color: #319fe4 !important; border-color: #b5def8 !important; }

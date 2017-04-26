@@ -1,0 +1,115 @@
+div.yen-bs-node {
+    box-shadow: #B1B3BA 0px 0px 2px 0px !important;
+    color: black !important;
+}
+
+a.yen-bs-count_link {
+    border-left-color: #F39E9E !important;
+    border-right-color: #F39E9E !important;
+    border-top-color: #F39E9E !important;
+    color: black !important;
+}
+
+div.yen-bs-popup {
+    box-shadow: 0px 0px 2px #B1B3BA !important;
+    background: white !important;
+    color: black !important;
+    background-color: white !important;
+}
+
+input.yen-bs-txt {
+    border: 1px solid #c0c0c0 !important;
+}
+
+.yen-bs-txt:hover {
+    border-color: #939393 !important;
+}
+
+.yen-bs-txt:focus {
+    border-color: #f15182 !important;
+}
+
+input.yen-bs-txt {
+    box-shadow: inset 0 2px 2px #d0d0d0 !important;
+}
+
+.yen-bs-button4, .yen-bs-button5, .yen-bs-button3 {
+    background-color: #35a3f0 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #83ccff), color-stop(100%, #35a3f0)) !important;
+    background-image: -webkit-linear-gradient(top, #83ccff, #35a3f0) !important;
+    background-image: -moz-linear-gradient(top, #83ccff, #35a3f0) !important;
+    background-image: -ms-linear-gradient(top, #83ccff, #35a3f0) !important;
+    background-image: -o-linear-gradient(top, #83ccff, #35a3f0) !important;
+    background-image: linear-gradient(top, #83ccff, #35a3f0) !important;
+    border: 1px solid #35a3f0 !important;
+    box-shadow: 0 1px 0 0 #c2e6ff inset !important;
+    color: #fff !important;
+    text-shadow: 0 -1px 0 #3699de !important;
+}
+
+button.yen-bs-button3:hover, button.yen-bs-button4:hover, button.yen-bs-button5:hover {
+    background: #3699de !important;
+    box-shadow: 0 1px 0 0 #9bccef inset !important;
+	cursor: pointer;
+}
+
+button.yen-bs-button3:active, button.yen-bs-button4:active, button.yen-bs-button5:active {
+    background-color: #ffb400 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #40a9f2), color-stop(100%, #83ccff)) !important;
+    background-image: -webkit-linear-gradient(top, #40a9f2, #83ccff) !important;
+    background-image: -moz-linear-gradient(top, #40a9f2, #83ccff) !important;
+    background-image: -ms-linear-gradient(top, #40a9f2, #83ccff) !important;
+    background-image: -o-linear-gradient(top, #40a9f2, #83ccff) !important;
+    background-image: linear-gradient(top, #40a9f2, #83ccff) !important;
+    box-shadow: inset 2px 2px 5px 1px #0674c1 !important;
+    border-color: #fff !important;
+}
+
+div.yen-bs-make_order {
+    border-top: 1px solid #CCC !important;
+}
+
+button.yen-ys-button6 {
+    font-size: 11px !important;
+    padding: 2px 1px !important;
+    margin-left: 19px !important;
+    background-color: #f55656 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fd6b6b), color-stop(100%, #e93636)) !important;
+    background-image: -webkit-linear-gradient(top, #fd6b6b, #e93636) !important;
+    background-image: -moz-linear-gradient(top, #fd6b6b, #e93636) !important;
+    background-image: -ms-linear-gradient(top, #fd6b6b, #e93636) !important;
+    background-image: -o-linear-gradient(top, #fd6b6b, #e93636) !important;
+    background-image: linear-gradient(top, #fd6b6b, #e93636) !important;
+    border: 1px solid #e93636 !important;
+    -webkit-box-shadow: 0 1px 0 0 #ffbfbf inset, 0 2px 0 0 #e5e5e5 !important;
+    -moz-box-shadow: 0 1px 0 0 #ffbfbf inset, 0 2px 0 0 #e5e5e5 !important;
+    box-shadow: 0 1px 0 0 #ffbfbf inset, 0 2px 0 0 #e5e5e5 !important;
+    color: #fff !important;
+    text-shadow: 0 -1px 0 #e93636 !important;
+    width: 20px !important;
+}
+
+button.yen-ys-button6:hover {
+    cursor: pointer !important;
+    background: #fa6565 !important;
+    box-shadow: 0 1px 0 0 #ffbfbf inset, 0 2px 0 0 #e5e5e5 !important;
+}
+
+button.yen-ys-button6:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e93636), color-stop(100%, #fd6b6b)) !important;
+    background-image: -webkit-linear-gradient(top, #e93636, #fd6b6b) !important;
+    background-image: -moz-linear-gradient(top, #e93636, #fd6b6b) !important;
+    background-image: -ms-linear-gradient(top, #e93636, #fd6b6b) !important;
+    background-image: -o-linear-gradient(top, #e93636, #fd6b6b) !important;
+    background-image: linear-gradient(top, #e93636, #fd6b6b) !important;
+}
+
+td.yen-bs-t_name h3 a {
+    color: #3699de !important;
+    border-color: #8dc5ec !important;
+}
+
+td.yen-bs-t_name h3 a:hover {
+    color: #f15182 !important;
+    border-color: #f79db8 !important;
+}

@@ -1,0 +1,159 @@
+catalog_tv_audio_video;Blu-Ray и DVD плееры;blu-ray-and-dvd-players 
+catalog_tv_audio_video;Домашние кинотеатры;home-cinema 
+catalog_tv_audio_video;Музыкальные центры;stereo
+catalog_tv_audio_video;ЖК телевизоры;lcd-tvs 
+catalog_tv_audio_video;Плазменные телевизоры;plasma-tvs
+catalog_tv_audio_video;LED-телевизоры;led-tvs 
+catalog_tv_audio_video;3D-телевизоры;3d-tv 
+catalog_tv_audio_video;ЖК моноблоки;lcd-monoblocks
+catalog_tv_audio_video;MP3-плееры;mp3-players 
+catalog_tv_audio_video;Спутниковое оборудование;satellite-equipment 
+catalog_tv_audio_video;Hi-Fi аппаратура;hi-fi-equipment 
+catalog_tv_audio_video;Акустические системы;speakers
+catalog_tv_audio_video;Ресиверы;receivers 
+catalog_tv_audio_video;Сабвуферы;subwoofers
+catalog_tv_audio_video;Электронные книги;electronic-books
+catalog_tv_audio_video;Музыкальные инструменты;musical-instruments 
+catalog_tv_audio_video;Портативное аудио;portable-audio
+catalog_automotive;Автомобильные видеорегистраторы;car-video-recorder
+catalog_automotive;GPS-навигаторы;gps-navigators
+catalog_automotive;Автомобильные магнитолы;car-radio 
+catalog_automotive;Радары-детекторы;radar-detectors 
+catalog_automotive;FM конверторы;fm-converters
+catalog_automotive;Автоcигнализации;avtocignalizatsii
+catalog_automotive;Автоакустика;car-audio
+catalog_automotive;Автоантенны;avtoantenny
+catalog_automotive;Автохолодильники;auto-refrigerators 
+catalog_automotive;Алкотестеры;breathalyzer 
+catalog_automotive;ЖК дисплеи и ТВ;lcd-displays-and-tv
+catalog_automotive;Камеры;cameras
+catalog_automotive;Подогрев сидений;heated-seats 
+catalog_household_appliances;Электрические плиты;electric-stoves
+catalog_household_appliances;Газовые плиты;gas-cookers
+catalog_household_appliances;Холодильники;refrigerators
+catalog_household_appliances;Морозильники;freezers 
+catalog_household_appliances;Комбинированные плиты;combination-plates 
+catalog_household_appliances;Микроволновые печи;microwaves 
+catalog_household_appliances;Вытяжки;hoods
+catalog_household_appliances;Посудомоечные машины;dishwashers
+catalog_household_appliances;Пылесосы;vacuum-cleaner 
+catalog_household_appliances;Стиральные машины;washing-machines 
+catalog_household_appliances;Сушильные машины;dryers 
+catalog_household_appliances;Вентиляторы;fans 
+catalog_household_appliances;Водонагреватели накопительные;storage-water-heaters
+catalog_household_appliances;Водонагреватели проточные;instantaneous-water-heaters
+catalog_household_appliances;Воздухоочистители;air
+catalog_household_appliances;Вытяжки;hoods
+catalog_household_appliances;Кондиционеры;air-conditioners 
+catalog_household_appliances;Обогреватели;heaters
+catalog_household_appliances;Увлажнители;humidifiers
+catalog_household_appliances;Газовые варочные поверхности;gas-hobs 
+catalog_household_appliances;Электрические варочные поверхности;electric-hobs
+catalog_household_appliances;Электрические духовые шкафы;electric-ovens 
+catalog_household_appliances;Встраиваемые холодильники;built-in-refrigerators 
+catalog_small_appliances;Аэрогрили;Aerogrili
+catalog_small_appliances;Блендеры;Blenders 
+catalog_small_appliances;Блинницы;Crepes 
+catalog_small_appliances;Вафельницы;Waffle 
+catalog_small_appliances;Весы кухонные;kitchen-scales 
+catalog_small_appliances;Грили;Greeley
+catalog_small_appliances;Измельчители;Grinders 
+catalog_small_appliances;Йогуртницы;Yogurtnitsy
+catalog_small_appliances;Кофеварки;Coffee-Makers
+catalog_small_appliances;Кофемашины;Coffee-Maker 
+catalog_small_appliances;Кофемолки;Grinders 
+catalog_small_appliances;Кухонные комбайны;Food-Processors
+catalog_small_appliances;Ломторезки;Lomtorezki 
+catalog_small_appliances;Микроволновые печи;Microwaves 
+catalog_small_appliances;Миксеры;Mixers 
+catalog_small_appliances;Мини печи;mini-oven
+catalog_small_appliances;Мультиварки;Multivarki 
+catalog_small_appliances;Мясорубки;Grinders 
+catalog_small_appliances;Пароварки;Steamers 
+catalog_small_appliances;Плитки настольные;tile-table 
+catalog_small_appliances;Скороварки;Pressure-Cookers 
+catalog_small_appliances;Соковарки;Sokovarki
+catalog_small_appliances;Соковыжималки;Juicers
+catalog_small_appliances;Сушилки для овощей;Dryers-for-vegetables
+catalog_small_appliances;Сэндвичницы;Sendvichnitsy
+catalog_small_appliances;Термопоты;Thermo 
+catalog_small_appliances;Термофильтры;Termofiltry
+catalog_small_appliances;Тостеры;Toasters 
+catalog_small_appliances;Фритюрницы;Deep-Fryers
+catalog_small_appliances;Хлебопечи;Breadmaker 
+catalog_small_appliances;Чайники;kettles
+catalog_small_appliances;Шоколадница;Chocolate
+catalog_small_appliances;Яйцеварки;egg-boiler 
+catalog_accessories;Bluetooth адаптеры;bluetooth-adapters
+catalog_accessories;Аккумуляторы;batteries 
+catalog_accessories;Элементы питания;batteries 
+catalog_accessories;Зарядные устройства;chargers
+catalog_accessories;Карты памяти;memory-cards
+catalog_accessories;Кронштейны;brackets
+catalog_accessories;Накопители USB Flash;usb-flash-drive 
+catalog_accessories;Сетевые фильтры;surge 
+catalog_accessories;Соединительные кабеля;the-connecting-cable
+catalog_accessories;Стойки под телевизоры;tv-stands-for 
+catalog_accessories;Удлиннители сетевые;extension-of-network
+catalog_accessories;Чехлы и сумки;bags-and-cases
+catalog_accessories;Аксессуары для вытяжек;accessories-for-hoods 
+catalog_accessories;Аксессуары для зубных щёток;accessories-for-toothbrushes
+catalog_accessories;Аксессуары для кофемашин;accessories-for-coffee-machines 
+catalog_accessories;Аксессуары для мясорубок;accessories-for-meat-grinder
+catalog_accessories;Аксессуары для навигаторов;accessories-for-navigators
+catalog_accessories;Аксессуары для пылесосов;accessories-for-vacuum-cleaners 
+catalog_accessories;Аксессуары для телевизоров;tv-accessories
+catalog_accessories;Аксессуары для электробритв;accessories-for-electric-shavers
+catalog_computers_and_laptops;Компьютеры;computers
+catalog_computers_and_laptops;Ноутбуки;laptops
+catalog_computers_and_laptops;Ультрабуки;ultrabuki
+catalog_computers_and_laptops;Сумки для ноутбуков;laptop-bags
+catalog_computers_and_laptops;Системные блоки;system-blocks
+catalog_computers_and_laptops;Принтеры;printers 
+catalog_computers_and_laptops;МФУ;mfp
+catalog_computers_and_laptops;Сканеры;scanners 
+catalog_computers_and_laptops;Факсы;faxes
+catalog_computers_and_laptops;Компьютерные колонки;computer-speakers
+catalog_computers_and_laptops;Веб-камеры;webcam 
+catalog_computers_and_laptops;Графические планшеты;graphic-tablets
+catalog_computers_and_laptops;Микрофоны;microphones
+catalog_computers_and_laptops;Компьютерные гарнитуры;computer-headset 
+catalog_computers_and_laptops;Флеш-накопители;flash-drives 
+catalog_computers_and_laptops;Внешние жесткие диски;external-hard-drives 
+catalog_computers_and_laptops;Внешние оптические приводы;external-optical-drives
+catalog_computers_and_laptops;Кард-ридеры;card-readers 
+catalog_computers_and_laptops;Мониторы;monitors 
+catalog_computers_and_laptops;Роутеры;routers
+catalog_computers_and_laptops;USB-адаптеры;usb-adapter
+catalog_computers_and_laptops;Мультимедийные проигрыватели;multimedia-player
+catalog_computers_and_laptops;Электронные книги;electronic-books 
+catalog_computers_and_laptops;Мыши;mice 
+catalog_computers_and_laptops;Клавиатуры;keyboards
+catalog_computers_and_laptops;Игровые манипуляторы;game-controllers 
+catalog_computers_and_laptops;Сетевые фильтры;surge
+catalog_computers_and_laptops;ИБП;ups
+catalog_computers_and_laptops;Картриджи;cartridges 
+catalog_computers_and_laptops;Джойстики;joysticks 
+catalog_computers_and_laptops;Рули;helms 
+catalog_computers_and_laptops;Музыкальные инструменты;musical-instruments 
+catalog_photos_and_videos;Цифровые фотоаппараты;digital-cameras 
+catalog_photos_and_videos;Цифровые видеокамеры;digital-camcorder 
+catalog_photos_and_videos;Объективы;lenses
+catalog_photos_and_videos;Оптика;optics
+catalog_photos_and_videos;Вспышки;outbreaks 
+catalog_photos_and_videos;Бинокли;binoculars
+catalog_photos_and_videos;Телескопы;telescopes
+catalog_photos_and_videos;Цифровые фоторамки;digital-picture-frames
+catalog_photos_and_videos;Системы видеонаблюдения;cctv
+catalog_phones_and_communication;Сотовые телефоны;cell-phones
+catalog_phones_and_communication;Смартфоны и коммуникаторы;smartphones-and-communicators
+catalog_phones_and_communication;GPS-навигаторы;gps-navigators 
+catalog_phones_and_communication;Радиостанции;radio-stations 
+catalog_phones_and_communication;Радио и DECT телефоны;radio-and-dect-phones
+catalog_phones_and_communication;Проводные телефоны;corded-phones
+catalog_phones_and_communication;Факсы;faxes
+catalog_phones_and_communication;Термо факсы;thermal-fax-machines 
+catalog_phones_and_communication;Док-станции;docks
+catalog_phones_and_communication;Гарнитуры;headsets 
+catalog_phones_and_communication;Электронные книги;electronic-books
+catalog_phones_and_communication;Игровые приставки;game-consoles 

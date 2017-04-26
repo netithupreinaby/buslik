@@ -1,0 +1,17 @@
+div.yen-bb-rasp {left: 0px !important; position:absolute !important;width:210px !important;height:5px !important;background:white !important;top:-3px !important;background-attachment:scroll !important;background-clip:border-box !important;background-image:none !important;background-origin:padding-box !important;background-position:0% 0% !important;background-repeat:repeat !important;color:black !important;display:block !important;line-height:18px !important;margin:0 !important;padding:0 !important;}
+
+header .basket-box {width: 210px !important;}/* until 28.02.2013 this line wasn't be(NE BILO) */
+/* ---CLOSE--- */
+.yen-bb-close {
+font-size: 12px !important;
+top: 2px !important;
+right: 5px !important;
+position: absolute !important;
+font-family: WebSymbolsLigaRegular !important;
+border-bottom: none !important;
+}
+.yen-bb-close:hover {cursor: pointer !important;}
+/* ----------- */
+
+.basket-box-right div.yen-bb-rasp { left: auto !important; right: 0 !important; }
+.basket-box-right .yen-bb-close { right: auto !important; left: 5px !important; }

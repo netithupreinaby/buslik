@@ -1,0 +1,107 @@
+.ye_filter .txt, .ye_filter textarea {
+    border: 1px solid #c0c0c0 !important;
+}
+
+.ye_filter .txt:hover, .ye_filter textarea:hover {
+    border-color: #939393 !important;
+}
+
+.ye_filter .txt:focus, .ye_filter textarea:focus {
+    border-color: #005edd !important;
+}
+
+.checker span {
+    background: url(img/yellow_ch_bg.png) top left no-repeat !important;
+}
+
+.checker:hover span, .checker.active span, .checker.focus span, .checker:hover span {
+    background: url(img/yellow_ch_bg_hover.png) top left no-repeat !important;
+    cursor: pointer !important;
+}
+
+.checker span.checked, .checker span.checked:hover {
+    background: url(img/yellow_ch_bg_active.png) top left no-repeat !important;
+}
+
+.ye_filter {
+    background: #fafafa !important;
+}
+
+/***********************/
+.ui-widget-header, .ye_limit_range {
+    background: #000 !important;
+}
+
+.ui-slider-handle, .ye_limit_handle {
+    background: url(img/yellow_bul.png) 0 0 no-repeat !important;
+}
+
+.button, .button1, .button2, .button3, .button4, .button5, .button7, .button8, .button9, .button13, .button14 {
+    background-color: #ffaa00;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffdc00), color-stop(100%, #ffaa00));
+    background-image: -webkit-linear-gradient(top, #ffdc00, #ffaa00);
+    background-image: -moz-linear-gradient(top, #ffdc00, #ffaa00);
+    background-image: -ms-linear-gradient(top, #ffdc00, #ffaa00);
+    background-image: -o-linear-gradient(top, #ffdc00, #ffaa00);
+    background-image: linear-gradient(top, #ffdc00, #ffaa00);
+    border: 1px solid #ffbc00;
+    box-shadow: 0 1px 0 0 #fff500 inset;
+    color: #fff !important;
+    text-shadow: 0 -1px 0 #e1a600;
+}
+
+.button:hover, .button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button7:hover, .button8:hover, .button9:hover, .button13:hover, .button14:hover {
+    background: #ffbc00;
+    box-shadow: 0 1px 0 0 #ffeb00 inset;
+}
+
+.button:active, .button1:active, .button2:active, .button3:active, .button4:active, .button5:active, .button7:active, .button8:active, .button9:active, .button13:active, .button14:active {
+    background-color: #ffb400;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffb400), color-stop(100%, #fdd900));
+    background-image: -webkit-linear-gradient(top, #ffb400, #fdd900);
+    background-image: -moz-linear-gradient(top, #ffb400, #fdd900);
+    background-image: -ms-linear-gradient(top, #ffb400, #fdd900);
+    background-image: -o-linear-gradient(top, #ffb400, #fdd900);
+    background-image: linear-gradient(top, #ffb400, #fdd900);
+    box-shadow: inset 2px 2px 5px 1px #c88500 !important;
+}
+
+/***********************/
+
+.ya_pole .ye_q a {
+    color: #005edd !important;
+    border-color: #6fa4ec !important;
+}
+
+.ya_pole .ye_q a:hover {
+    color: #5a5a5a !important;
+    border-color: #a2a2a2 !important;
+}
+
+.radio span {
+    background-image: url(img/yellow_ye_radio.png) !important;
+}
+
+.ye_result {
+    background: #fffcbd;
+    border: 2px solid #ffbc00 !important;
+}
+
+.ye_more button .sym {
+    color: #005edd !important
+}
+
+.button12 {
+    color: #0660CF !important;
+}
+
+.button12:hover {
+    color: #5a5a5a !important;
+}
+
+.button12:active, .button12.active {
+    background: #ededed !important;
+    box-shadow: 1px 2px 3px #c1c1c1 inset !important;
+    border: 1px solid #d7d7d7 !important;
+    color: #5a5a5a !important;
+}

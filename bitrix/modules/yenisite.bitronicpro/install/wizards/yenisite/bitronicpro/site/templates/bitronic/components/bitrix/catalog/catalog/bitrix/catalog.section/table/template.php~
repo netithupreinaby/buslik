@@ -1,0 +1,80 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<? CModule::IncludeModule('yenisite.resizer2'); ?>
+
+				<div class="catalog">
+					<div class="catalog-list-light">
+						<table>
+							<tbody>					
+					
+					
+<?foreach($arResult["ITEMS"] as $cell=>$arElement):?>					
+    
+	<?
+    $this->AddEditAction($arElement['ID'], $arElement['EDIT_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_EDIT"));
+    $this->AddDeleteAction($arElement['ID'], $arElement['DELETE_LINK'], CIBlock::GetArrayByID($arParams["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BCS_ELEMENT_DELETE_CONFIRM')));
+    ?>
+	
+	<?
+        $pr = 0; $kr = 0;
+        foreach($arElement[PRICES] as $k => $price)
+            if($price[VALUE] < $pr || $pr == 0 ){ $pr = $price[VALUE]; $kr = $k; }			
+        $price = $arElement[PRICES][$kr][VALUE];
+        $disc = 0;
+        if($arElement[PRICES][$kr][DISCOUNT_VALUE])
+            $disc =  ($arElement["PRICES"][$kr]["VALUE"] - $arElement["PRICES"][$kr]["DISCOUNT_VALUE"])*100/$arElement["PRICES"][$kr]["VALUE"];        
+    ?>   
+	
+							<tr id="<?=$this->GetEditAreaId($arElement['ID']);?>">
+
+									<td>
+										 <?$path = CFile::GetPath($arElement[PROPERTIES][PHOTO][VALUE][0]);?>
+									<img src='<?=CResizer2Resize::ResizeGD2($path,$arParams[RESIZER_SETS][TABLE_IMG]);?>' alt='<?=$arElement[NAME]?>' />
+									</td>
+									<td>
+										<h3><a href="<?=$arElement[DETAIL_PAGE_URL]?>"><?=$arElement[NAME]?></a></h3>
+									</td>
+									<td class="priceTD">
+										<span class="price"><?=$arElement[PRICES][$kr][DISCOUNT_VALUE]?$arElement[PRICES][$kr][DISCOUNT_VALUE]:$pr;?><span class="rubl">Ð</span>
+										<?if($arElement[PRICES][$kr][DISCOUNT_VALUE]):?>
+										<span class="oldprice"><?=$pr;?><span class="rubl">Ð</span></span>
+										<?endif?>									
+									</td>
+									<td>
+									<form name="a2b<?echo $arElement["ID"]?>" action="<?=POST_FORM_ACTION_URI?>" method="post" enctype="multipart/form-data">
+										<input type="text" name="quantity" class="txt" />
+										<input type="hidden" name="id" value="<?echo $arElement["ID"]?>">							
+										<input type="hidden" name="action" value="ADD2BASKET">
+									</form>	
+									</td>
+									<td>
+										<button class="button4">+</button>
+									</td>
+									<td>
+										<button class="button5">-</button>
+									</td>
+									<td class="add_basket">
+										<button onclick="document.forms['a2b<?echo $arElement["ID"]?>'].submit(); return false;" class="button2"><span></span></button>
+									</td>
+
+							</tr>
+						<?endforeach?>							
+						
+					</tbody>
+				</table>
+			</div>
+			
+				</div><!--.cataog-->
+				<div class="pager-block">
+					<div class="show_filter">
+						<?echo GetMessage("PAGE_COUNT")?>:
+							<form name='pagecount' method="post">
+								<select name='page_count' onchange="document.forms['pagecount'].submit();">
+									<option value='20' <?=$arParams[PAGE_ELEMENT_COUNT] == 20?"selected='selected'":""; ?>>20</option>
+									<option value='40' <?=$arParams[PAGE_ELEMENT_COUNT] == 40?"selected='selected'":""; ?>>40</option>
+									<option value='60' <?=$arParams[PAGE_ELEMENT_COUNT] == 60?"selected='selected'":""; ?>>60</option>
+								</select>
+							</form>
+					</div><!--.show_filter-->
+					
+					<?=$arResult["NAV_STRING"]?>
+				</div><!--.pager-block-->

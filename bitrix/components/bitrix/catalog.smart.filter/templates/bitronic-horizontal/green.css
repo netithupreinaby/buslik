@@ -1,0 +1,213 @@
+.ye_filter .txt, .ye_filter textarea {
+    border: 1px solid #c0c0c0 !important;
+}
+
+.ye_filter .txt:hover, .ye_filter textarea:hover {
+    border-color: #939393 !important;
+}
+
+.ye_filter .txt:focus, .ye_filter textarea:focus {
+    border-color: #35ab01 !important;
+}
+.ye_filter  div.checker span{
+    width:15px !important;
+    height:15px !important;
+}
+.ye_filter .checker span {
+    background: url(img/green_checkbox.png)  0px 0px  no-repeat !important;
+}
+
+.ye_filter .checker:hover span,
+.ye_filter .checker.active span,
+.ye_filter .checker.focus span, 
+.ye_filter .checker:hover span {
+    background-position: 0px -18px!important;
+    cursor: pointer !important;
+}
+
+.ye_filter .checker span.checked,
+.ye_filter .checker span.checked:hover {
+    background-position: 0px -35px !important;
+}
+
+.ye_filter {
+    background: #F4F5F5 !important;
+}
+
+/*****************************/
+.ui-widget-header, .ye_limit_range {
+    background: #000 !important;
+}
+
+.ye_filter  .ui-widget-header, .ye_filter  .ye_limit_range {
+   -webkit-border-radius: 3px/2px !important;
+    -moz-border-radius: 3px/2px !important;
+    border-radius: 3px/2px !important;
+    background-color: #259c01 !important;
+    -webkit-box-shadow: 1px 2px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.73) !important;
+    -moz-box-shadow: 1px 2px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.73) !important;
+    box-shadow: 1px 2px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.73) !important;
+    border: solid 1px #35ab01 !important;
+    background-image: -webkit-linear-gradient(bottom, #35ab01, #7fe533) !important;
+    background-image: -moz-linear-gradient(bottom, #35ab01, #7fe533) !important;
+    background-image: -o-linear-gradient(bottom, #35ab01, #7fe533) !important;
+    background-image: -ms-linear-gradient(bottom, #35ab01, #7fe533) !important;
+    background-image: linear-gradient(to top, #35ab01, #7fe533) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#35ab01', endColorstr='#7fe533');
+}
+
+.ye_filter  .ui-widget-header:hover, .ye_filter  .ye_limit_range:hover {
+    background-color: #259c01 !important;
+    -webkit-box-shadow: 1px 2px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.73) !important;
+    -moz-box-shadow: 1px 2px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.73) !important;
+    box-shadow: 1px 2px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.73) !important;
+    border: solid 1px #41d500 !important;
+    background-image: -webkit-linear-gradient(bottom, #45e000, #bdff8c) !important;
+    background-image: -moz-linear-gradient(bottom, #45e000, #bdff8c) !important;
+    background-image: -o-linear-gradient(bottom, #45e000, #bdff8c) !important;
+     background-image: -ms-linear-gradient(bottom, #45e000, #bdff8c) !important;
+    background-image: linear-gradient(to top, #45e000, #bdff8c) !important;
+    cursor: pointer !important;
+     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#45e000', endColorstr='#bdff8c');
+}
+
+
+.ye_filter  .ui-widget-header:active, .ye_filter  .ye_limit_range:active {
+    background-color: #259c01 !important;
+    -webkit-box-shadow: 1px 2px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.73) !important;
+    -moz-box-shadow: 1px 2px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.73) !important;
+    box-shadow: 1px 2px rgba(0,0,0,.1), inset 0 1px rgba(255,255,255,.73) !important;
+    border: solid 1px #35ab01 !important;
+    background-image: -webkit-linear-gradient(top, #35ab01, #7fe533) !important;
+    background-image: -moz-linear-gradient(top, #35ab01, #7fe533) !important;
+    background-image: -o-linear-gradient(top, #35ab01, #7fe533) !important;
+    background-image: -ms-linear-gradient(top, #35ab01, #7fe533) !important;
+    background-image: linear-gradient(to bottom, #35ab01, #7fe533) !important;
+     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#35ab01', endColorstr='#7fe533');
+
+}
+
+
+.ye_filter .ui-slider-handle, .ye_filter .ye_limit_handle {
+     border-radius: 0 !important;
+    background: url(img/green_bul1.png) 0 0 no-repeat !important;
+}
+
+.ye_filter .ui-slider-handle:hover, .ye_filter .ye_limit_handle:hover {
+    background-position: 0 -15px !important;
+}
+
+.ye_filter .ye_limit_handle:active,.ye_filter .ui-slider-handle.ui-state-active {
+    background-position: 0 -30px !important;
+}
+
+#ys_filter_bitronic .button, #ys_filter_bitronic .button1, #ys_filter_bitronic .button2, #ys_filter_bitronic .button3,  #ys_filter_bitronic .button4, #ys_filter_bitronic .button5, #ys_filter_bitronic .button7, #ys_filter_bitronic .button8, #ys_filter_bitronic .button9, #ys_filter_bitronic .button13, #ys_filter_bitronic .button14 {
+  background-color: #35AB01;
+    background-image: -moz-linear-gradient(center top , #7CE331, #35AB01);
+    border: 1px solid #35AB01;
+    box-shadow: 0 1px 0 0 #D6F757 inset, 0 2px 0 0 #E5E5E5;
+    color: #FFFFFF !important;
+    text-shadow: 0 -1px 0 #15A700;
+	border-radius: 3px 3px 3px 3px !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    text-decoration: none !important;	
+}
+
+#ys_filter_bitronic .button:hover, #ys_filter_bitronic .button1:hover, #ys_filter_bitronic .button2:hover, #ys_filter_bitronic .button3:hover, #ys_filter_bitronic .button4:hover, #ys_filter_bitronic .button5:hover, #ys_filter_bitronic .button7:hover, #ys_filter_bitronic .button8:hover, #ys_filter_bitronic .button9:hover, #ys_filter_bitronic .button13:hover,  #ys_filter_bitronic .button14:hover { background: #5ac81a; box-shadow: 0 1px 0 0 #99ef2c inset, 0 2px 0 0 #e5e5e5; }
+#ys_filter_bitronic .button:active, #ys_filter_bitronic .button1:active, #ys_filter_bitronic .button2:active, #ys_filter_bitronic .button3:active, #ys_filter_bitronic .button4:active, #ys_filter_bitronic .button5:active, #ys_filter_bitronic .button7:active, #ys_filter_bitronic .button8:active, #ys_filter_bitronic .button9:active, #ys_filter_bitronic .button13:active, #ys_filter_bitronic .button14:active { 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #118400), color-stop(100%, #7ce331));
+	background-image: -webkit-linear-gradient(top, #118400, #7ce331);
+	background-image: -moz-linear-gradient(top, #118400, #7ce331);
+	background-image: -ms-linear-gradient(top, #118400, #7ce331);
+	background-image: -o-linear-gradient(top, #118400, #7ce331);
+	background-image: linear-gradient(top, #118400, #7ce331);
+}
+
+/*********************/
+
+.ya_pole .ye_tit:hover {
+    color: #319fe4;
+    border-color: #b5def8;
+}
+
+.ya_pole .ye_q a {
+    color: #35ab01 !important;
+    border-color: #35ab01 !important;
+}
+
+.ya_pole .ye_q a:hover {
+    color: #319fe4 !important;
+    border-color: #319fe4 !important;
+}
+
+.ye_result {
+    background: #fff;
+    border: 2px solid #35ab01 !important;
+}
+/*
+.ye_result .ye_result_txt{
+    color: #35ab01 !important;
+    background-color: rgba(244,236,231,0) !important;
+    border: solid 1px  #35ab01 !important;
+}
+*/
+
+.ye_more button .sym {
+    color: #35ab01 !important
+}
+
+.button12 {
+    color: #0660CF !important;
+}
+
+.button12:hover {
+    color: #5a5a5a !important;
+}
+
+.button12:active, .button12.active {
+    background: #ededed !important;
+    box-shadow: 1px 2px 3px #c1c1c1 inset !important;
+    border: 1px solid #d7d7d7 !important;
+    color: #5a5a5a !important;
+}
+
+#wrapper .f_loader {
+    color: #35ab01;  
+}
+
+.ye_filter .more_txt{
+    color: #000;
+    text-shadow: 0 1px rgba(255,255,255,.47);
+}
+
+
+.ye_filter .show_filtr {
+  background: url('img/green_show_filtr.png')0 -43px;
+}
+
+.ye_filter .show_filtr:hover {
+  background-position:  0 -1px;
+}
+
+ 
+.ye_filter .hide_filtr {
+    background: url('img/green_hide_filtr.png')0 0;
+}
+.ye_filter .hide_filtr:hover {
+    background-position: 0 -42px;
+}
+
+
+/*-----Kombox style-----*/
+.irs-line-mid {
+     background: #000 !important;
+}
+
+.irs-slider.from {
+    background: url("../img/bul.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.irs-slider.to {
+    background: url("../img/bul.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}

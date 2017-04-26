@@ -1,0 +1,39 @@
+.ys-work_circle {
+	float: left;
+	margin-right: 1px;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #808080;
+}
+
+.ys-weekend_circle {
+	float: left; 
+	margin-right: 1px;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #c41e3a;
+}
+
+#ys-time-work-circle {
+	position: absolute;
+	top: 82px;
+	left: 1309px;
+	color: #808080;
+	width: 80px;
+}	
+
+#ys-time-weekend-circle {
+	position: absolute;
+	top: 82px;
+	left: 1370px;
+	width: 80px;
+	color: #c41e3a;
+}
+
+#ys-lunch {
+	position: absolute;
+	top: 101px;
+	display:none;
+}

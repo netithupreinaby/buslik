@@ -1,0 +1,10 @@
+.mnu_wsm_import1clog_icon {
+	background-image: url(icons/wsm.import1clog/menu_icon.png) !important;
+	background:url(icons/wsm.import1clog/menu_icon.png) 8px 4px no-repeat;
+	}
+
+/*last version < 12.0*/	
+#mnu_wsm_import1clog_icon{
+	background-image: url(icons/wsm.import1clog/menu_icon.png) !important;
+	background:url(icons/wsm.import1clog/menu_icon.png) 9px 3px no-repeat;
+	}

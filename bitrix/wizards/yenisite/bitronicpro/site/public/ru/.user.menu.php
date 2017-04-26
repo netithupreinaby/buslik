@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"#ORDER_HISTORY#", 
+		"personal/orders.php", 
+		Array(), 
+		Array("icon"=>":"), 
+		"" 
+	),
+	Array(
+		"#PROFILES#", 
+		"personal/profiles.php", 
+		Array(), 
+		Array("icon"=>"."), 
+		"" 
+	),
+	Array(
+		"#PROFILE#", 
+		"personal/profile/", 
+		Array(), 
+		Array("icon"=>"^"), 
+		"" 
+	),
+	Array(
+		"#SUBSCRIBE#", 
+		"personal/subscribe.php", 
+		Array(), 
+		Array("icon"=>"8"), 
+		"" 
+	),
+	Array(
+		"#LOGOUT#", 
+		"?logout=yes", 
+		Array(), 
+		Array("icon"=>"`"), 
+		"" 
+	)
+);
+?>

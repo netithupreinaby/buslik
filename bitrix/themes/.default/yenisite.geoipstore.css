@@ -1,0 +1,5 @@
+/* Menu icon */
+#ys-store_menu_icon {background-image:url(icons/yenisite.geoipstore/small.gif);}
+#ys-store_page_icon {background-image:url(icons/yenisite.geoipstore/big.gif);}
+/* Menu icon BX12 */
+.ys-store_menu_icon {background:url(icons/yenisite.geoipstore/medium.png) 5px 0px no-repeat !important;}

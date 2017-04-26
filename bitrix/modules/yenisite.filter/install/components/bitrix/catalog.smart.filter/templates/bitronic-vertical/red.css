@@ -1,0 +1,216 @@
+#ys_filter_bitronic select.toggle-list, #ys_filter_bitronic .selectBox {
+    background: url("img/sb_select_ice.png") no-repeat scroll left top transparent !important;
+}
+
+#ys_filter_bitronic .button, #ys_filter_bitronic .button1, #ys_filter_bitronic .button2, #ys_filter_bitronic .button3,  #ys_filter_bitronic .button4, #ys_filter_bitronic .button5, #ys_filter_bitronic .button7, #ys_filter_bitronic .button8, #ys_filter_bitronic .button9, #ys_filter_bitronic .button13, #ys_filter_bitronic .button14 {
+    background-color: #CF2020 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FD9742), color-stop(100%, #CF2020)) !important;
+    background-image: -webkit-linear-gradient(top, #FD9742, #CF2020) !important;
+    background-image: -moz-linear-gradient(top, #FD9742, #CF2020) !important;
+    background-image: -ms-linear-gradient(top, #FD9742, #CF2020) !important;
+    background-image: -o-linear-gradient(top, #FD9742, #CF2020) !important;
+    background-image: linear-gradient(top, #FD9742, #CF2020) !important;
+    border: 1px solid #CF2020 !important;
+/*    box-shadow: 0 1px 0 0 #FFCD30 inset, 0 2px 0 0 #E5E5E5 !important;*/
+    color: #FFFFFF !important;
+    text-shadow: 0 -1px 0 #D12522 !important;
+    border-radius: 3px 3px 3px 3px !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    text-decoration: none !important;   
+}
+
+#ys_filter_bitronic .selector, #ys_filter_bitronic .checker, #ys_filter_bitronic .button, #ys_filter_bitronic .radio, #ys_filter_bitronic .uploader {
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+
+#ys_filter_bitronic .ui-slider-handle {
+    background: url("img/bul_red.png") no-repeat scroll 0 0 transparent !important;
+}
+
+#ys_filter_bitronic h3 a:hover {
+    color: #ff7b11 !important;
+    border-color: #ffb980 !important;
+}
+
+#ys_filter_bitronic div.checker {
+    height:15px;
+    width:15px;
+    padding:0;
+    cursor:pointer;
+}
+
+
+#ys_filter_bitronic div.checker span {
+    background: url(img/red_checkbox.png)  0px 0px  no-repeat !important;
+}
+
+#ys_filter_bitronic div.checker span {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+
+#ys_filter_bitronic div.checker span {
+    display: inline-block !important;
+    text-align: center !important;
+}
+
+#ys_filter_bitronic div.focus span,
+#ys_filter_bitronic div.checker:hover span,
+#ys_filter_bitronic div.checker.active span,
+#ys_filter_bitronic div.hover span,
+#ys_filter_bitronic div.checker.focus span,
+#ys_filter_bitronic div.checker:hover span {
+    background-position:  0px -19px !important;
+    cursor:pointer;
+}
+
+#ys_filter_bitronic div.checker span.checked,
+#ys_filter_bitronic div.checker span.checked:hover,
+#ys_filter_bitronic div.focus span.checked,
+#ys_filter_bitronic div:hover span.checked,
+#ys_filter_bitronic div.hover span.checked {
+    background-position:  0px -36px !important;
+}
+
+
+#ys_filter_bitronic .txt, #ys_filter_bitronic textarea {
+    border: 1px solid #c0c0c0  !important;
+}
+#ys_filter_bitronic  .txt:hover, #ys_filter_bitronic   textarea:hover {
+     border-color: #939393 !important; 
+}
+
+#ys_filter_bitronic .txt, #ys_filter_bitronic textarea {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 2px #D0D0D0 inset;
+    padding: 6px 10px;
+}
+
+#ys_filter_bitronic .txt:focus, textarea:focus { border-color: #e00c0c; }
+#ys_filter_bitronic  .selectBox-label:hover{color: #e00c0c;}
+
+#ys_filter_bitronic .limit {
+    background: url("img/shkala_red.png") no-repeat scroll center top transparent !important;
+    margin: 20px 0 10px;
+    padding: 0;
+    width: 180px;
+    height: 5px !important;
+}
+
+/* --------- */
+
+
+
+#ys_filter_bitronic .button:hover, #ys_filter_bitronic .button1:hover, #ys_filter_bitronic .button2:hover, #ys_filter_bitronic .button3:hover, #ys_filter_bitronic .button4:hover, #ys_filter_bitronic .button5:hover, #ys_filter_bitronic .button7:hover, #ys_filter_bitronic .button8:hover, #ys_filter_bitronic .button9:hover, #ys_filter_bitronic .button13:hover, #ys_filter_bitronic .button14:hover {
+    background: none repeat scroll 0 0 #EA6534 !important;
+    box-shadow: 0 1px 0 0 #F99826 inset, 0 2px 0 0 #E5E5E5 !important;
+}
+
+#ys_filter_bitronic .button:active, #ys_filter_bitronic .button.active, #ys_filter_bitronic .button1:active, #ys_filter_bitronic .button2:active, #ys_filter_bitronic .button3:active, #ys_filter_bitronic .button4:active, #ys_filter_bitronic .button5:active, #ys_filter_bitronic .button7:active, #ys_filter_bitronic .button8:active, #ys_filter_bitronic .button9:active, #ys_filter_bitronic .button13:active, #ys_filter_bitronic .button14:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cf2020), color-stop(100%, #fd9742)) !important;
+    background-image: -webkit-linear-gradient(top, #cf2020, #fd9742) !important;
+    background-image: -moz-linear-gradient(top, #cf2020, #fd9742) !important;
+    background-image: -ms-linear-gradient(top, #cf2020, #fd9742) !important;
+    background-image: -o-linear-gradient(top, #cf2020, #fd9742) !important;
+    background-image: linear-gradient(top, #cf2020, #fd9742) !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf2020', endColorstr='#fd9742')" !important;
+}
+
+#wrapper .f_loader {
+    color: #e00c0c;  
+}
+
+
+#ys_filter_bitronic  .ui-widget-header, #ys_filter_bitronic .ye_limit_range {
+    -webkit-border-radius: 3px/2px !important;
+    -moz-border-radius: 3px/2px !important;
+    border-radius: 3px/2px !important;
+    background-color: #259c01 !important;
+    -webkit-box-shadow: 1px 2px rgba(0,0,0,.15), inset 0 1px #ffd0ac !important;
+    -moz-box-shadow: 1px 2px rgba(0,0,0,.15), inset 0 1px #ffd0ac !important;
+    box-shadow: 1px 2px rgba(0,0,0,.15), inset 0 1px #ffd0ac !important;
+    border: solid 1px #cf2020 !important;
+    background-image: -webkit-linear-gradient(bottom, #cf2020, #ff9b43) !important;
+    background-image: -moz-linear-gradient(bottom, #cf2020, #ff9b43) !important;
+    background-image: -o-linear-gradient(bottom, #cf2020, #ff9b43) !important;
+     background-image: -ms-linear-gradient(bottom, #cf2020, #ff9b43) !important;
+    background-image: linear-gradient(to top, #cf2020, #ff9b43) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#cf2020', endColorstr='#ff9b43');
+}
+
+#ys_filter_bitronic  .ui-widget-header:hover, #ys_filter_bitronic  .ye_limit_range:hover {
+    background-color: #259c01 !important;
+    -webkit-box-shadow: 1px 2px rgba(0,0,0,.15), inset 0 1px #ffd0ac !important;
+    -moz-box-shadow: 1px 2px rgba(0,0,0,.15), inset 0 1px #ffd0ac !important;
+    box-shadow: 1px 2px rgba(0,0,0,.15), inset 0 1px #ffd0ac !important;
+    border: solid 1px #cb766f !important;
+    background-image: -webkit-linear-gradient(bottom, #ff4848, #ffc490) !important;
+    background-image: -moz-linear-gradient(bottom, #ff4848, #ffc490) !important;
+    background-image: -o-linear-gradient(bottom, #ff4848, #ffc490) !important;
+    background-image: -ms-linear-gradient(bottom, #ff4848, #ffc490) !important;
+    background-image: linear-gradient(to top, #ff4848, #ffc490) !important;
+    cursor: pointer !important;
+     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ff4848', endColorstr='#ffc490');
+}
+
+
+#ys_filter_bitronic .ui-widget-header:active, #ys_filter_bitronic .ye_limit_range:active {
+    background-color: #259c01 !important;
+    -webkit-box-shadow: 1px 2px rgba(0,0,0,.15), inset 0 1px #ffd0ac !important;
+    -moz-box-shadow: 1px 2px rgba(0,0,0,.15), inset 0 1px #ffd0ac !important;
+    box-shadow: 1px 2px rgba(0,0,0,.15), inset 0 1px #ffd0ac !important;
+    border: solid 1px #cf2020 !important;
+    background-image: -webkit-linear-gradient(top, #cf2020, #ff9b43) !important;
+    background-image: -moz-linear-gradient(top, #cf2020, #ff9b43) !important;
+    background-image: -o-linear-gradient(top, #cf2020, #ff9b43) !important;
+    background-image: -ms-linear-gradient(top, #cf2020, #ff9b43) !important;
+    background-image: linear-gradient(to bottom, #cf2020, #ff9b43) !important;
+     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#cf2020', endColorstr='#ff9b43');
+}
+
+#ys_filter_bitronic .ui-slider-handle, #ys_filter_bitronic .ye_limit_handle {
+    border-radius: 0 !important;
+    background: url(img/red_bul1.png) 0 0 no-repeat !important;
+}
+
+#ys_filter_bitronic .ui-slider-handle:hover, #ys_filter_bitronic .ye_limit_handle:hover {
+    background-position: 0 -15px !important;
+}
+
+#ys_filter_bitronic .ye_limit_handle:active, #ys_filter_bitronic .ui-slider-handle.ui-state-active {
+    background-position: 0 -30px !important;
+}
+
+
+
+#ys_filter_bitronic .more_txt{
+    color: #fff;
+    text-shadow: 0 -1px 0 #D12522;
+}
+
+#ys_filter_bitronic .show_filtr .show_filtr_multyangle{
+    background-image: url('img/show_filtr_multyangle_white.png');
+}
+
+#ys_filter_bitronic .hide_filtr .hide_filtr_multyangle{
+    background-image: url('img/hide_filtr_multyangle_white.png');
+}
+
+#ys_filter_bitronic .show_filtr {
+  background: url('img/red_show_filtr.png')0 0px no-repeat;
+}
+#ys_filter_bitronic .show_filtr:hover {
+  background-position:  0 -40px;
+}
+
+#ys_filter_bitronic .hide_filtr {
+    background: url('img/red_hide_filtr.png')0 -1px no-repeat;
+}
+#ys_filter_bitronic .hide_filtr:hover {
+    background-position: 0 -40px;
+}
+

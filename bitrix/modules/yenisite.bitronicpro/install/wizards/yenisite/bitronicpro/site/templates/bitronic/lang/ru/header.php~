@@ -1,0 +1,16 @@
+<?
+$MESS ['ORDER_HISTORY'] = "История заказов";
+$MESS ['USER_PROFILES'] = "Профили покупателя";
+$MESS ['USER_SETTINGS'] = "Настройки пользователя";
+$MESS ['SUBSCRIBE_SETTINGS'] = "Настройка рассылки";
+$MESS ['EXIT'] = "Выход";
+$MESS ['SEARCH_CATALOG'] = "по каталогу";
+$MESS ['SEARCH_SITE'] = "по сайту";
+$MESS ['SEARCH_TEXT'] = "Поиск";
+$MESS ['RUB'] = "Р";
+$MESS ['LOGIN'] = "Вход на сайт";
+$MESS ['CALL_ORDER'] = "Заказать звонок";
+$MESS ['OK_TEXT'] = "Ваша заявка принята. <br/> Ожидайте звонка.";
+
+
+?>

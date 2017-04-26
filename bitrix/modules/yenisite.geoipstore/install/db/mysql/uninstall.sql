@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `ys_geoip_store_currency2country`;

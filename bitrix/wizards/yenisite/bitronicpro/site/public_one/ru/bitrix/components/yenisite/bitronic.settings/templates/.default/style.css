@@ -1,0 +1,151 @@
+.colorpicker {
+	z-index: 9999;
+}
+
+#ys-bitronic-settings {
+    position: fixed;
+    bottom: -780px;
+    left: 50%;
+    width: 600px;
+    height: 780px;
+    margin-left: -300px;
+    z-index: 999;
+}
+
+#ys-bitronic-settings-body {
+    position: absolute;
+    width: 600px;
+    height: 780px;
+    border: 1px solid #ccc;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 3px #777777;
+    z-index: 50;
+}
+
+#ys-bitronic-settings-head {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    width: 100px;
+    height: 50px;
+    margin-left: -50px;
+    border: 1px solid #ccc;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 3px #777777;
+    z-index: 20;
+}
+
+#ys-bitronic-settings-white {
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    width: 100px;
+    height: 10px;
+    margin-left: -49px;
+    border: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    z-index: 90;
+}
+
+#ys-bitronic-settings-head a {width: 100%; height: 100%; text-align: center; display: block; padding-top: 4px; font-size: 14px; }
+#ys-bitronic-settings-head a span {border-bottom: 1px dashed;}
+.margerine {margin: 20px; clear: both;}
+
+
+
+
+#ys-bitronic-settings select.toggle-list, #ys-bitronic-settings .selectBox {
+    border: medium none !important;
+    height: 25px !important;
+    padding: 5px 5px 0 !important;
+    width: 170px !important;
+}
+#ys-bitronic-settings input.checkbox, #ys-bitronic-settings select, #ys-bitronic-settings .selectBox {
+    cursor: pointer !important;
+}
+#ys-bitronic-settings .selectBox-dropdown {
+    color: #000000 !important;
+    min-width: 150px !important;
+    outline: medium none !important;
+    position: relative !important;
+    text-decoration: none !important;
+    vertical-align: middle !important;
+}
+#ys-bitronic-settings .selectBox-arrow {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/search-arrow.png") no-repeat scroll center center transparent !important;
+}
+#ys-bitronic-settings .selectBox-dropdown .selectBox-arrow {
+    height: 100% !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 23px !important;
+}
+
+#ys-bitronic-settings select.toggle-list,#ys-bitronic-settings .selectBox {
+    background: url("/bitrix/components/yenisite/bitronic.settings/templates/.default/img/sb_select_ice.png") no-repeat scroll left top transparent;
+}
+
+#ys-bitronic-settings .set-item {float: left; height: 80px; width: 45%;}
+#ys-bitronic-settings .set-item.mini-item{height: 40px;}
+#ys-bitronic-settings .set-but {position: absolute; bottom: 30px; right: 30px;}
+#ys-bitronic-settings #bitronic_reset {margin-right: 10px;}
+
+
+
+.selectBox-dropdown-menu {height: 150px !important;}
+/* ---CLOSE--- */
+.yen-settings-close {
+font-size: 12px !important;
+top: 2px !important;
+right: 5px !important;
+position: absolute !important;
+font-family: WebSymbolsLigaRegular !important;
+/*color: #e93636 !important;*/
+border-bottom: none !important;
+}
+.yen-settings-close:hover {cursor: pointer !important;}
+
+
+#ys-bitronic-settings .ui-slider-handle:hover {
+    background-position: 0 -17px !important;
+}
+#ys-bitronic-settings .ui-slider-handle.ui-state-active {
+    background-position: 0 -34px !important;
+}
+
+#ys-bitronic-settings .ui-slider-range {
+    border-radius: 5px 5px 5px 5px !important;
+	background: none repeat scroll 0 0 #000000 !important;
+}
+
+.ui-slider-handle, .ye_limit_handle {
+    border: medium none !important;
+    cursor: pointer !important;
+    height: 16px !important;
+    position: absolute !important;
+    top: -16px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+    margin-left: -5px !important;
+}
+
+div.texture {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 1px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+div.texture_selected {
+    background-color: #FBCB09;
+}
+
+div.texture_bg {
+    width: 30px;
+    height: 30px;
+}

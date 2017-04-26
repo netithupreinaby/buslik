@@ -1,0 +1,215 @@
+.aprof-time2buy {
+	width:100%;
+	position:relative;
+	padding:0 10px 10px;
+	margin:0 auto;
+}
+.aprof-time2buy-carousel {
+	width:100%;
+	overflow:hidden;
+	position:relative;
+}
+.aprof-time2buy-carousel ul {
+	list-style:none!important;
+	padding:0!important;
+	margin:0!important;
+	width:100%;
+	position:relative;
+}
+.aprof-time2buy-carousel ul  li {
+	float:left;
+	width:235px;
+	padding:15px 21px 0;
+	list-style:none!important;
+	text-indent:0!important;
+	margin:0!important;
+}
+.aprof-time2buy-carousel ul  li:before {
+	content:""!important;
+}
+.aprof-time2buy-name {
+	text-align:center;
+	margin-bottom: 10px;
+	min-height:40px;
+	font:bold 18px/20px Calibri;
+}
+.aprof-time2buy-image {
+	margin: 0;
+	text-align:center;
+}
+
+.aprof-time2buy-image a {
+border: medium none !important;
+}
+
+.aprof-time2buy-timer {
+	overflow:hidden;
+	width:195px;
+	margin:0 auto;
+}
+.aprof-time2buy-time {
+	width:141px;
+	height:63px;
+	border:1px solid #c8c4b9;
+	background:#f5f5f5;
+	float:left;
+	text-align:center;
+	font: 12px Calibri;
+	color:#525248;
+	padding-top:3px;
+	margin-right:5px;
+}
+.aprof-time2buy-cnt {
+	overflow:hidden;
+	width:110px;
+	margin:0 auto;
+}
+.aprof-time2buy-cnt div {
+	float:left;
+	width:27px;
+	font: bold 23px/28px Cambria Math;
+	color:#3f3f35;
+}
+.aprof-time2buy-cnt div small {
+	display:block;
+	font: 12px Calibri;
+	color:#525248;
+}
+.aprof-time2buy-cnt .slash{
+	width:13px;
+}
+.aprof-time2buy-quant {
+	border:1px solid #c8c4b9;
+	background:#f5f5f5;
+	width:44px;
+	height:63px;
+	float:left;
+	font: 12px Calibri;
+	text-align:center;
+	padding-top:3px;
+}
+.aprof-time2buy-quant div {
+	font: bold 23px/28px Cambria Math;
+}
+.aprof-time2buy-quant small {
+	font:12px Calibri;
+}
+.aprof-time2buy-sale {
+	width:195px;
+	overflow:hidden;
+	margin:8px auto 0;
+}
+.aprof-time2buy-sale-label {
+	float:left;
+	font:13px Calibri;
+}
+.aprof-time2buy-sale-scale {
+	border:1px solid #c8c4b9;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+	-webkit-border-radius:3px;
+	font:15px Calibri;
+	color:#525248;
+	text-align:center;
+	position:relative;
+	float:right;
+	width:102px;
+	height:15px;
+}
+.aprof-time2buy-sale-scale div {
+	background:#cec4bd;
+	position:absolute;
+	left:0;
+	top:0;
+	height:15px;
+	z-index:1;
+}
+.aprof-time2buy-sale-scale span {
+	position:relative;
+	z-index:2;
+}
+.aprof-time2buy-price {
+	width:195px;
+	margin:13px auto 0;
+}
+
+
+
+.aprof-time2buy-price-label {
+	float:left;
+	width:80px;
+	text-align:right;
+}
+.aprof-time2buy-price-num {
+	margin-left:80px;
+	text-align:right;
+}
+
+
+.aprof-time2buy-newprice {
+	color:#3f3f35;
+	font:13px/17px Calibri;
+
+
+}
+.aprof-time2buy-newprice  .aprof-time2buy-price-num {
+	font:bold 22px/12px Calibri;
+}
+.aprof-time2buy-newprice  .aprof-time2buy-price-num span {
+	font-weight:normal;
+}
+
+
+
+.aprof-time2buy-oldprice {
+	color:#ada79d;
+	font:13px/17px Calibri;
+margin-bottom: 7px;
+
+}
+.aprof-time2buy-oldprice .aprof-time2buy-price-num {
+	font:bold 22px/12px Calibri;
+	text-decoration:line-through;
+}
+.aprof-time2buy-oldprice .aprof-time2buy-price-num span {
+	font-weight:normal;
+}
+
+
+
+.aprof-time2buy-save {
+	color:#dc6e03;
+	font:14px/28px Calibri;
+}
+.aprof-time2buy-save {
+	width:179px;
+	height:28px;
+	border:1px solid #c8c4b9;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	background:#f5f5f5;
+	margin:8px auto 0;
+	padding:0 7px;
+}
+.aprof-time2buy-save-label {
+	float:left;
+	/*width:85px;*/
+}
+.aprof-time2buy-save-val {
+	float:right;
+	font:bold 18px/28px Calibri;
+}
+.aprof-time2buy-save-val span {
+	font-weight:normal;
+}
+.aprof-time2buy-add2cart {
+	width:179px;
+	height:28px;
+	margin: 10px auto 0;
+	padding-top: 13px;
+	display:block;
+	font-size: 20px;
+}

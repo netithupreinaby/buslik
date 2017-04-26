@@ -1,0 +1,20 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+
+<form action="<?=$arResult["FORM_ACTION"]?>" id="send-form">
+
+<div style='display: none;'>
+<?foreach($arResult["RUBRICS"] as $itemID => $itemValue):?>
+	<label for="sf_RUB_ID_<?=$itemValue["ID"]?>">
+	<input type="checkbox" name="sf_RUB_ID[]" id="sf_RUB_ID_<?=$itemValue["ID"]?>" value="<?=$itemValue["ID"]?>" checked="checked" /> <?=$itemValue["NAME"]?>
+	</label><br />
+<?endforeach;?>
+</div>
+
+<div class="column w20"> <?=GetMessage("SUBSCRIBE")?><br />
+		<br />
+	<input class="txt"  type="text" name="sf_EMAIL" size="20" value="<?=$arResult["EMAIL"]?$arResult["EMAIL"]:GetMessage("subscr_form_email_title")?>" title="<?=GetMessage("subscr_form_email_title")?>" />
+<input type="hidden" name="OK" value="<?=GetMessage("subscr_form_button")?>" />
+<button class="button"></button>
+
+</div>
+</form>

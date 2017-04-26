@@ -1,0 +1,133 @@
+<?
+if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
+
+if(!$arResult["NavShowAlways"])
+{
+	if ($arResult["NavRecordCount"] == 0 || ($arResult["NavPageCount"] == 1 && $arResult["NavShowAll"] == false))
+		return;
+}
+
+//echo "<pre>"; print_r($arResult);echo "</pre>";
+
+$strNavQueryString = ($arResult["NavQueryString"] != "" ? $arResult["NavQueryString"]."&amp;" : "");
+$strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["NavQueryString"] : "");
+
+
+if($arResult["NavPageNomer"] == 1)
+	$prev = 1;
+elseif($arResult["NavPageNomer"] == 0)
+	$prev = 1;
+else $prev = $arResult["NavPageNomer"];
+
+if($arResult["NavPageNomer"] == $arResult["NavPageCount"])
+	$prev = $arResult["NavPageCount"];
+elseif($arResult["NavPageNomer"] > $arResult["NavPageCount"])
+	$prev = $arResult["NavPageCount"];
+else 
+	$prev = $arResult["NavPageNomer"]+1;
+
+
+?>
+
+					<div class="one-step">						
+						&larr; <a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]-1)?>"><?=GetMessage("nav_prev")?></a>
+						<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]+1)?>"><?=GetMessage("nav_next")?></a> &rarr;
+					</div><!--.one-step-->
+
+<?if($arResult["bDescPageNumbering"] === true):?>
+
+	<div class="pager">
+
+	<?if ($arResult["NavPageNomer"] < $arResult["NavPageCount"]):?>
+		<?if($arResult["bSavePage"]):?>
+			<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=$arResult["NavPageCount"]?>"><?=GetMessage("nav_begin")?></a>
+			
+			
+			
+		<?else:?>
+			<a href="<?=$arResult["sUrlPath"]?><?=$strNavQueryStringFull?>"><?=GetMessage("nav_begin")?></a>
+			
+			<?if ($arResult["NavPageCount"] == ($arResult["NavPageNomer"]+1) ):?>
+				
+				
+			<?else:?>
+			
+				
+			<?endif?>
+		<?endif?>
+	<?else:?>
+		<a href="#"><?=GetMessage("nav_begin")?></a>
+	<?endif?>
+
+	<?while($arResult["nStartPage"] >= $arResult["nEndPage"]):?>
+		<?$NavRecordGroupPrint = $arResult["NavPageCount"] - $arResult["nStartPage"] + 1;?>
+
+		<?if ($arResult["nStartPage"] == $arResult["NavPageNomer"]):?>
+			<a href="#" class='active'><?=$NavRecordGroupPrint?></a>
+		<?elseif($arResult["nStartPage"] == $arResult["NavPageCount"] && $arResult["bSavePage"] == false):?>
+			<a href="<?=$arResult["sUrlPath"]?><?=$strNavQueryStringFull?>"><?=$NavRecordGroupPrint?></a>
+		<?else:?>
+			<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=$arResult["nStartPage"]?>"><?=$NavRecordGroupPrint?></a>
+		<?endif?>
+
+		<?$arResult["nStartPage"]--?>
+	<?endwhile?>
+
+
+
+	<?if ($arResult["NavPageNomer"] > 1):?>
+		
+	
+		<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=1"><?=GetMessage("nav_end")?></a>
+	<?else:?>
+		<a href="#"><?=GetMessage("nav_end")?></a>
+	<?endif?>
+
+<?else:?>
+	<div class="pager">
+
+	<?if ($arResult["NavPageNomer"] > 1):?>
+
+		<?if($arResult["bSavePage"]):?>
+			<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=1"><?=GetMessage("nav_begin")?></a>
+		
+		
+		
+		<?else:?>
+			<a href="<?=$arResult["sUrlPath"]?><?=$strNavQueryStringFull?>"><?=GetMessage("nav_begin")?></a>
+			
+			<?if ($arResult["NavPageNomer"] > 2):?>
+				
+			<?else:?>
+				
+			<?endif?>
+			
+		<?endif?>
+
+	<?else:?>
+		<a href="#"><?=GetMessage("nav_begin")?></a>
+	<?endif?>
+
+	<?while($arResult["nStartPage"] <= $arResult["nEndPage"]):?>
+
+		<?if ($arResult["nStartPage"] == $arResult["NavPageNomer"]):?>
+			<a href="#" class='active'><?=$arResult["nStartPage"]?></a>
+		<?elseif($arResult["nStartPage"] == 1 && $arResult["bSavePage"] == false):?>
+			<a href="<?=$arResult["sUrlPath"]?><?=$strNavQueryStringFull?>"><?=$arResult["nStartPage"]?></a>
+		<?else:?>
+			<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=$arResult["nStartPage"]?>"><?=$arResult["nStartPage"]?></a>
+		<?endif?>
+		<?$arResult["nStartPage"]++?>
+	<?endwhile?>
+	
+
+	<?if($arResult["NavPageNomer"] < $arResult["NavPageCount"]):?>
+		
+		<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=$arResult["NavPageCount"]?>"><?=GetMessage("nav_end")?></a>
+	<?else:?>
+		<a href="#"><?=GetMessage("nav_end")?></a>
+	<?endif?>
+
+<?endif?>
+
+</div>

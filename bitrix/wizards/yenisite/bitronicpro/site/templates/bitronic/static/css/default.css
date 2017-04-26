@@ -1,0 +1,51 @@
+
+.text, li, td {
+    font-family: Verdana,Arial;
+    font-size: 12px;
+}
+h1, h2, h3, h4 {
+    font-weight: bold;
+    margin-bottom: 0.4em;
+    margin-top: 2em;
+}
+h1 {
+    font-size: 140%;
+}
+h2 {
+    font-size: 120%;
+    line-height: 100%;
+}
+h3 {
+    font-size: 115%;
+    margin-left: 0;
+}
+h4 {
+    font-size: 100%;
+}
+pre.syntax {
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    font-family: Courier New;
+    height: 80px;
+    overflow: auto;
+    padding: 1em;
+    width: 600px;
+}
+code {
+    font-family: Courier New,Verdana,Arial;
+    font-size: 13px;
+    font-weight: bold;
+}
+div.hint, div.important {
+    background: url("icons/prim.gif") no-repeat scroll 0.5em 1em #F9FAFE;
+    border: 1px solid #BCCCDC;
+    font-family: Verdana,Arial;
+    font-size: 12px;
+    padding: 1em 1em 1em 2em;
+}
+div.important {
+    background-image: url("icons/imp.gif");
+}
+li {
+    padding: 4px;
+}

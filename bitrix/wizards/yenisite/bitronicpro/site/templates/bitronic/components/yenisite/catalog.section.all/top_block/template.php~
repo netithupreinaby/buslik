@@ -1,0 +1,69 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+
+
+
+<div id="tv">
+
+
+
+	  
+<div class="tv_container">
+	  
+	  <div class="tv_wrapper">
+	    <?foreach($arResult["ITEMS"] as $cell=>$arElement): if($cell > 5) break;?>
+			<div class="tv_tab" id="tab-<?=$cell?>">
+			  <div class="tv_img">
+<?$path = CFile::GetPath($arElement[PROPERTIES][PHOTO][VALUE][0]);?>
+<img alt="" src="<?=CResizer2Resize::ResizeGD2($path, $arParams[IMAGE_SET]);?>">
+<!--<img src="/bitrix/templates/bitronic/static/tmp/tv_tab.jpg" alt="" />-->
+</div>
+			  <!--.tv_img-->
+			  <div class="title"><?=$arElement["NAME"]?></div>
+			  <p><?=$arElement["PREVIEW_TEXT"]?></p>
+			  
+			  	<?
+        $pr = 0; $kr = 0;
+        foreach($arElement[PRICES] as $k => $price)
+            if($price[VALUE] < $pr || $pr == 0 ){ $pr = $price[VALUE]; $kr = $k; }			
+        $price = $arElement[PRICES][$kr][VALUE];
+        $disc = 0;
+        if($arElement[PRICES][$kr][DISCOUNT_VALUE])
+            $disc =  ($arElement["PRICES"][$kr]["VALUE"] - $arElement["PRICES"][$kr]["DISCOUNT_VALUE"])*100/$arElement["PRICES"][$kr]["VALUE"];        
+    ?>   
+			  
+
+				
+				<span class="price"><?=GetMessage('VSEGO_ZA');?><strong><?=$arElement[PRICES][$kr][DISCOUNT_VALUE]?$arElement[PRICES][$kr][DISCOUNT_VALUE]:$pr;?><span class="rubl"><?=GetMessage('RUB');?></span></strong>
+										<?if($arElement[PRICES][$kr][DISCOUNT_VALUE] && $arElement[PRICES][$kr][DISCOUNT_VALUE] != $arElement[PRICES][$kr][VALUE]):?>
+						<span class="oldprice"><?=$pr;?><span class="rubl"><?=GetMessage('RUB');?></span></span>
+				<?endif?>									
+				</span>
+				
+			  
+			  
+			  <div class="more"> <a href="<?=$arElement["DETAIL_PAGE_URL"]?>"><?=GetMessage('PODROBNEE')?></a>
+				<div style="clear:both;"></div>
+			  </div>
+			  <!--.more--> 
+			</div>
+		<?endforeach?>
+	  </div>
+</div>	  
+	  <!--.tv_wrapper-->
+	  
+	  <ul class="tv_menu tab_nav">
+	  <?foreach($arResult["ITEMS"] as $cell=>$arElement): if($cell > 5) break;?>
+		<li><a href="#tab-<?=$cell?>" class="active"><span><?=$arElement["NAME"]?></span></a></li>
+		<?endforeach?>
+	  </ul>	  
+	  
+	  <div class="tv_pager">
+		<ul class="tab_nav">
+		<?foreach($arResult["ITEMS"] as $cell=>$arElement): if($cell > 5) break;?>
+		  <li><a href="#tab-<?=$cell?>" class="active">&nbsp;</a></li>
+		 <?endforeach?> 
+		</ul>
+	  </div>
+	  <!--.tv_pager--> 
+	</div>
+	<!--#tv-->

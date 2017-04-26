@@ -1,0 +1,17 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?>
+<?foreach($arResult["ITEMS"] as $arItem):?>
+  <?
+	print_r($arItem);
+	$this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
+	$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
+	?>
+		<div id="<?=$this->GetEditAreaId($arItem['ID']);?>" class="news-item"> <span class="date"><?=$arItem["CREATE_DATE"]?></span>
+			<h3><a href="<?=$arItem["DETAIL_PAGE_URL"]?>"><?echo $arItem["NAME"]?></a></h3>
+		</div>
+		  <!--.news-item-->
+	<?endforeach?>
+		  
+		  <!--.news-item--> 
+		  <a href="/news/" class="all-news"><?=GetMessage('ALL')?></a> </div>
+		<!--.column-->
+		<div style="clear:both;"></div>

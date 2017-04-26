@@ -1,0 +1,125 @@
+input#pay_button_robokassa {
+	display: inline-block;
+	color: rgba(255,255,255,1);
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+	-webkit-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.30);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.30);
+	font-weight: 600;
+}
+
+.formM{
+	display: table;
+	border: 1px dashed rgb(182, 211, 234);
+	border-radius: 5px;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(240,240,240,1) 100%);
+}
+
+
+
+.formM {
+	width: 298px;
+	height: 58px;
+}
+
+	.formM.shadows {
+		width: 298px;
+		height: 60px;
+	}
+
+
+.formM input#pay_button_robokassa {
+	font-size: 11pt;
+}
+
+
+.formM > div{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+	.formM > div input#pay_button_robokassa {
+		width: 126px;
+		height: 38px;
+		background: url("../../../images/yenisite.market/roboxchange/button-m.png");
+		line-height: 37px;
+	}
+
+		.formM > div input#pay_button_robokassa:active{
+			position: relative;
+			bottom: -2px;
+		}
+
+.formM img{
+	position: relative;
+}
+
+.formM form{
+	display: inline;
+}
+
+
+.formM img,
+.formM input#pay_button_robokassa {
+	margin-right: 5px;
+}
+
+
+
+.formM.shadows{
+	position: relative;
+	border: none;
+	background: rgb( 232, 237, 241);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+	.formM.shadows:before,
+	.formM.shadows:after{
+		position: absolute;
+		z-index: -2;
+		content: "";
+	}
+
+/* Lifted corners */
+
+.lifted {
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+	.lifted:before,
+	.lifted:after {
+		bottom: 15px;
+		left: 10px;
+		max-width: 300px;
+		max-height: 100px;
+		width: 50%;
+		height: 20%;
+		-moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+		-webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+		box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
+		-moz-transform: rotate(-3deg);
+		-ms-transform: rotate(-3deg);
+		-o-transform: rotate(-3deg);
+		-webkit-transform: rotate(-3deg);
+		transform: rotate(-3deg);
+	}
+
+	.lifted:after {
+		right: 10px;
+		left: auto;
+		-moz-transform: rotate(3deg);
+		-ms-transform: rotate(3deg);
+		-o-transform: rotate(3deg);
+		-webkit-transform: rotate(3deg);
+		transform: rotate(3deg);
+	}
+
+.formM input#pay_button_robokassa:hover {
+	background: url("../../../images/yenisite.market/roboxchange/button-hover-m.png") 0 0 no-repeat;
+}

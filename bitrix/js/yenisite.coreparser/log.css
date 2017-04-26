@@ -1,0 +1,20 @@
+#ys_spec_log_popup {
+	display:none;
+	position: fixed;
+	right: 37px;
+	bottom: 80px;
+	background-color: #fff;
+	border: 1px solid;
+	text-align: center;
+	width: 20%;
+	height: 30%;
+}
+#ys_spec_log_popup a{
+	float:right;
+	margin:10px;
+}
+#ys_spec_log {
+	width: 90%;
+	height: 50%;
+	position: relative;
+}

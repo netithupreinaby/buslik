@@ -1,0 +1,100 @@
+.ye_filter .txt, .ye_filter textarea {
+    border: 1px solid #c0c0c0 !important;
+}
+
+.ye_filter .txt:hover, .ye_filter textarea:hover {
+    border-color: #939393 !important;
+}
+
+.ye_filter .txt:focus, .ye_filter textarea:focus {
+    border-color: #35ab01 !important;
+}
+
+.checker span {
+    background: url(img/ch_bg_ice.png) top left no-repeat !important;
+}
+
+.checker:hover span, .checker.active span, .checker.focus span, .checker:hover span {
+    background: url(img/ch_bg_hover.png) top left no-repeat !important;
+    cursor: pointer !important;
+}
+
+.checker span.checked, .checker span.checked:hover {
+    background: url(img/ch_bg_active.png) top left no-repeat !important;
+}
+
+.ye_filter {
+    background: #F4F5F5 !important;
+}
+
+/*****************************/
+.ui-widget-header, .ye_limit_range {
+    background: #000 !important;
+}
+
+.ui-slider-handle, .ye_limit_handle {
+    background: url(img/bul.png) 0 0 no-repeat !important;
+}
+
+#ys_filter_bitronic .button, #ys_filter_bitronic .button1, #ys_filter_bitronic .button2, #ys_filter_bitronic .button3,  #ys_filter_bitronic .button4, #ys_filter_bitronic .button5, #ys_filter_bitronic .button7, #ys_filter_bitronic .button8, #ys_filter_bitronic .button9, #ys_filter_bitronic .button13, #ys_filter_bitronic .button14 {
+  background-color: #35AB01;
+    background-image: -moz-linear-gradient(center top , #7CE331, #35AB01);
+    border: 1px solid #35AB01;
+    box-shadow: 0 1px 0 0 #D6F757 inset, 0 2px 0 0 #E5E5E5;
+    color: #FFFFFF !important;
+    text-shadow: 0 -1px 0 #15A700;
+	border-radius: 3px 3px 3px 3px !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    text-decoration: none !important;	
+}
+
+#ys_filter_bitronic .button:hover, #ys_filter_bitronic .button1:hover, #ys_filter_bitronic .button2:hover, #ys_filter_bitronic .button3:hover, #ys_filter_bitronic .button4:hover, #ys_filter_bitronic .button5:hover, #ys_filter_bitronic .button7:hover, #ys_filter_bitronic .button8:hover, #ys_filter_bitronic .button9:hover, #ys_filter_bitronic .button13:hover,  #ys_filter_bitronic .button14:hover { background: #5ac81a; box-shadow: 0 1px 0 0 #99ef2c inset, 0 2px 0 0 #e5e5e5; }
+#ys_filter_bitronic .button:active, #ys_filter_bitronic .button1:active, #ys_filter_bitronic .button2:active, #ys_filter_bitronic .button3:active, #ys_filter_bitronic .button4:active, #ys_filter_bitronic .button5:active, #ys_filter_bitronic .button7:active, #ys_filter_bitronic .button8:active, #ys_filter_bitronic .button9:active, #ys_filter_bitronic .button13:active, #ys_filter_bitronic .button14:active { 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #118400), color-stop(100%, #7ce331));
+	background-image: -webkit-linear-gradient(top, #118400, #7ce331);
+	background-image: -moz-linear-gradient(top, #118400, #7ce331);
+	background-image: -ms-linear-gradient(top, #118400, #7ce331);
+	background-image: -o-linear-gradient(top, #118400, #7ce331);
+	background-image: linear-gradient(top, #118400, #7ce331);
+}
+
+/*********************/
+
+.ya_pole .ye_q a {
+    color: #35ab01 !important;
+    border-color: #35ab01 !important;
+}
+
+.ya_pole .ye_q a:hover {
+    color: #319fe4 !important;
+    border-color: #319fe4 !important;
+}
+
+.radio span {
+    background-image: url(img/green_ye_radio.png) !important;
+}
+
+.ye_result {
+    background: #fff;
+    border: 2px solid #35ab01 !important;
+}
+
+.ye_more button .sym {
+    color: #35ab01 !important
+}
+
+.button12 {
+    color: #0660CF !important;
+}
+
+.button12:hover {
+    color: #5a5a5a !important;
+}
+
+.button12:active, .button12.active {
+    background: #ededed !important;
+    box-shadow: 1px 2px 3px #c1c1c1 inset !important;
+    border: 1px solid #d7d7d7 !important;
+    color: #5a5a5a !important;
+}

@@ -1,0 +1,11 @@
+.relative {
+    position: relative;
+}
+
+.formErrosr {
+    opacity: 0.87;
+    position: absolute;
+    bottom: 0px!important;
+    left: 240px;
+    margin-top: -100px;
+}

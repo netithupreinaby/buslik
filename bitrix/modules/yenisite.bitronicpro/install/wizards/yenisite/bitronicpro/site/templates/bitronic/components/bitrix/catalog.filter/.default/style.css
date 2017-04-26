@@ -1,0 +1,297 @@
+#ys_filter_bitronic{
+	width: 100%;
+	background: none repeat scroll 0 0 #F4F5F5;
+	 margin-bottom: 30px;
+    padding: 20px;
+}
+
+#ys_filter_bitronic label {
+    font-size: 14px;
+    margin-right: 5px;
+    position: relative;
+    top: 2px;
+    z-index: 1;
+}
+
+.bx-calendar a{border-bottom: none !important;}
+.bx-calendar-today a {
+    border: 1px solid #FF0000 !important;    
+}
+
+/*-------------------------*/
+#ys_filter_bitronic .item_filters_items-prace{
+	float: left !important; 
+	margin-right: 20px !important; 
+	width: 180px !important;
+	min-height: 60px !important;
+}
+/*---------------------*/
+#ys_filter_bitronic .item_filters_inner{
+	margin: 10px !important; 
+	width: 100% !important;
+}
+
+
+
+
+#ys_filter_bitronic .selectBox-dropdown .selectBox-label {
+    display: inline-block;
+    height: 17px;
+    line-height: 12px;
+    overflow: hidden;
+    padding: 4px 5px 0;
+    white-space: nowrap;
+    font: 12px/18px Arial,Tahoma,Verdana,sans-serif;
+    line-height:	12px;
+}
+
+#ys_filter_bitronic .item_filters_items{
+	float: left !important; 
+	margin-right: 20px !important; 	
+	margin-bottom: 20px !important; 	
+	
+}
+
+#ys_filter_bitronic h2 {
+	color: #010101 !important;
+    font-size: 26px !important;
+    font-weight: normal !important;
+    margin-bottom: 5px !important;
+    margin-top: 0 !important;
+}
+#ys_filter_bitronic h3 {
+    color: #000000 !important;
+}
+
+#ys_filter_bitronic .slider h3 {
+    color: #35AB01 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    margin-bottom: 5px !important;
+}
+
+#ys_filter_bitronic input, #ys_filter_bitronic select, #ys_filter_bitronic textarea {
+    font: 12px/18px Arial,Helvetica,sans-serif !important;
+}
+
+#ys_filter_bitronic input {
+    vertical-align: middle !important;
+}
+
+#ys_filter_bitronic select.toggle-list, #ys_filter_bitronic .selectBox {
+    border: medium none !important;
+    height: 20px !important;
+    padding: 5px 5px 5px !important;
+    width: 180px !important;
+}
+
+#ys_filter_bitronic .selectBox {
+    border: 1px solid #000000 !important;
+    border-radius: 3px 3px 3px 3px !important;
+    box-shadow: 0 2px 2px #D0D0D0 inset !important;
+}
+
+#ys_filter_bitronic input.checkbox, #ys_filter_bitronic select, #ys_filter_bitronic .selectBox {
+    cursor: pointer !important;
+}
+
+#ys_filter_bitronic .selectBox-dropdown {
+    color: #000000 !important;
+    min-width: 150px !important;
+    outline: medium none !important;
+    position: relative !important;
+    text-decoration: none !important;
+    vertical-align: middle !important;
+    text-align: left;
+}
+#ys_filter_bitronic .selectBox-options ul, #ys_filter_bitronic .selectBox-options ul li, #ys_filter_bitronic .selectBox-options a{
+ text-align: left !important;
+}
+
+#ys_filter_bitronic .selectBox-arrow {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/search-arrow.png") no-repeat scroll center center transparent !important;
+}
+
+#ys_filter_bitronic  .selectBox-dropdown .selectBox-arrow {
+    height: 30px !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 40px !important;
+}
+
+#ys_filter_bitronic  .button {
+    padding: 6px 10px !important;
+}
+
+
+.ui-slider-range{
+	
+	border-radius: 5px !important;
+	height: 100% !important; 
+	top: 0 !important;
+	border: none !important;
+	display: block !important;
+	position: absolute !important;
+	z-index: 1 !important;
+	background: #000 !important;	
+	margin-left: -2px;
+	padding-right: 2px;
+	
+}
+
+.ui-corner-all {border:none;}
+
+.limit_handle {	
+	width:12px !important;
+	height:16px !important;
+	border:none !important;
+	cursor:pointer !important;
+	top: -16px !important;
+	position: absolute !important;
+	z-index: 2 !important;	
+}
+
+
+
+.ui-slider-handle {	
+	width:12px !important;
+	height:16px !important;
+	border:none !important;
+	cursor:pointer !important;
+	top: -16px !important;
+	position: absolute !important;
+	z-index: 2 !important;	
+	margin-left: -0.4em !important;
+}
+
+.ui-widget-header {
+    background: none repeat scroll 0 0 #000000;
+}
+.ui-slider-range{height: 5px !important; border-radius: 0;}
+
+
+
+.selectBox-dropdown-menu {
+    min-width: 178px !important;
+}
+
+.selectBox-dropdown-menu {
+    min-width: 80px;
+    width: auto !important;
+}
+
+.selectBox-dropdown-menu {
+    min-width: 80px;
+    width: auto !important;
+}
+
+.selectBox-options, .selectBox-options LI, .selectBox-options LI A {
+    cursor: default;
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+	text-align: left;
+    font: 12px/18px Arial,Tahoma,Verdana,sans-serif !important;
+}
+
+.selectBox-dropdown-menu {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    max-height: 200px;
+    min-height: 1em;
+    overflow: auto;
+    position: absolute;
+    z-index: 99999;
+}
+
+
+.selectBox-options LI.selectBox-selected A {
+    background-color: #C8DEF4;
+}
+
+.selectBox-options LI A {
+    border: medium none;
+}
+
+.selectBox-options LI A {
+    background: none no-repeat scroll 6px center transparent;
+    color: #222222;
+    overflow: hidden;
+    padding: 3px 5px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.button {cursor: pointer;}
+
+#ys_filter_bitronic .item_filters_in_form {width: 100% !important; float: left !important; margin-bottom: 5px !important; margin-left: 5px !important;}
+
+#ys_filter_bitronic h2 { 
+	font-family: Arial,Tahoma,Verdana,sans-serif!important;
+	font-size:	26px !important;
+	font-weight:	400 !important;
+	font-style:	normal !important;
+	font-size-adjust:	none !important;
+	color:	#010101 !important;
+	text-transform:	none !important;
+	text-decoration:	none !important;
+	letter-spacing:	normal !important;
+	word-spacing:	0 !important;
+	line-height:	32px !important;
+	text-align:	start !important;
+	vertical-align:	baseline !important;
+	direction:	ltr !important;
+	text-overflow:	clip !important;
+}
+
+/* ---------------   */
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -15px !important;
+	height: 15px !important;
+}
+.ui-slider-range {padding: 0 0px 0 2px !important; margin-left: -3px !important;}
+
+
+#ys_filter_bitronic .inputs-filter{
+	float: right !important; 
+	margin-top: 5px !important;
+	margin-right: 40px !important;
+	text-align: right;	
+}
+.inputs-filter-button{
+width: 100% !important; 
+	float: left !important; 
+	margin-top: 20px !important;
+	margin-bottom: 15px !important;
+	margin-left: 20px !important;
+	}
+li.selectBox-hover a { background-color:  #EEE !important;  cursor: pointer;}
+
+#ys_filter_bitronic h3 {
+    color: #000000 !important;
+	font-family:	Arial,Tahoma,Verdana,sans-serif!important;
+	font-size:	12px !important;
+	font-weight:	700 !important;
+	font-style:	normal !important;
+	font-size-adjust:	none !important;
+	color:	#000000 !important;
+	text-transform:	none !important;
+	text-decoration:	none !important;
+	letter-spacing:	normal !important;
+	word-spacing:	0 !important;
+	line-height:	10px !important;
+	text-align:	start !important;
+	vertical-align:	baseline !important;
+	direction:	ltr !important;
+	text-overflow:	clip !important;
+}
+
+label.checkbox {font: 14px Arial, Tahoma, Verdana, sans-serif!important;}
+
+#ys_filter_bitronic .txt:hover, #ys_filter_bitronic textarea:hover, #ys_filter_bitronic .txt:focus, #ys_filter_bitronic textarea:focus  { box-shadow: inset 0 2px 2px #dfdfdf !important;}
+
+#ys_filter_bitronic .ui-widget-content{border: none !important;}

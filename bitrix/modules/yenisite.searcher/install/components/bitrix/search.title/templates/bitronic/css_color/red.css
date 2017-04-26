@@ -1,0 +1,68 @@
+#ys-title-search  .s_submit {
+    color: #e00c0c!important;
+}
+
+#ys-title-search-input:focus {
+	border-color: #e00c0c!important;
+}
+
+.ys-title-search-result h3,
+.ys-title-search-result a,
+#ys-title-search a
+{
+    color: #e00c0c!important;
+    border-color: #f39e9e!important;
+}
+
+.ys-title-search-result a:hover,
+#ys-title-search a:hover
+{
+    color: #ff7b11!important;
+    border-color: #ffb980!important;
+}
+
+.ys-title-search-result  li:hover {
+    background: #fff2e7!important;
+}
+
+.ys-title-search-result  li.noitem:hover {
+    background: none!important;
+}
+
+
+
+
+.ys-title-search-result  li .add2basket {
+	background-color: #cf2020 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fd9742), color-stop(100%, #cf2020)) !important;
+	background-image: -webkit-linear-gradient(top, #fd9742, #cf2020) !important;
+	background-image: -moz-linear-gradient(top, #fd9742, #cf2020) !important;
+	background-image: -ms-linear-gradient(top, #fd9742, #cf2020) !important;
+	background-image: -o-linear-gradient(top, #fd9742, #cf2020) !important;
+	background-image: linear-gradient(top, #fd9742, #cf2020) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fd9742', endColorstr='#cf2020')" !important;
+	border: 1px solid #cf2020 !important;
+	-webkit-box-shadow: 0 1px 0 0 #ffcd30 inset, 0 2px 0 0 #e5e5e5 !important;
+	-moz-box-shadow: 0 1px 0 0 #ffcd30 inset, 0 2px 0 0 #e5e5e5 !important;
+	box-shadow: 0 1px 0 0 #ffcd30 inset !important;
+	color: #fff !important;
+	text-shadow: 0 -1px 0 #d12522 !important;
+	
+
+}
+
+.ys-title-search-result  li .add2basket:hover {
+	background: #ea6534 !important;
+	box-shadow: 0 1px 0 0 #f99826 inset !important;
+}
+
+.ys-title-search-result  li .add2basket:active {
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cf2020), color-stop(100%, #fd9742)) !important;
+	background-image: -webkit-linear-gradient(top, #cf2020, #fd9742) !important;
+	background-image: -moz-linear-gradient(top, #cf2020, #fd9742) !important;
+	background-image: -ms-linear-gradient(top, #cf2020, #fd9742) !important;
+	background-image: -o-linear-gradient(top, #cf2020, #fd9742) !important;
+	background-image: linear-gradient(top, #cf2020, #fd9742) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf2020', endColorstr='#fd9742')" !important;
+}
+

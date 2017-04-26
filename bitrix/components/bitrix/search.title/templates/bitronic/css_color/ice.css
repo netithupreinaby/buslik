@@ -1,0 +1,64 @@
+#ys-title-search  .s_submit {
+    color: #0660cf!important;
+}
+
+#ys-title-search-input:focus {
+	border-color: #0660cf!important;
+}
+
+.ys-title-search-result h3,
+.ys-title-search-result a,
+#ys-title-search a
+{
+    color: #3b91e7!important;
+    border-color: #a4ccf4!important;
+}
+
+.ys-title-search-result a:hover,
+#ys-title-search a:hover
+{
+    color: #0660cf!important;
+    border-color: #6baced!important;
+}
+
+.ys-title-search-result /*.similar_items*/ li:hover {
+    background: #f4f5f5!important;
+}
+.ys-title-search-result  li.noitem:hover {
+    background: none!important;
+}
+
+
+
+
+.ys-title-search-result  li .add2basket {
+    background-color: #0660cf !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6dbffd), color-stop(100%, #0660cf)) !important;
+    background-image: -webkit-linear-gradient(top, #6dbffd, #0660cf) !important;
+    background-image: -moz-linear-gradient(top, #6dbffd, #0660cf) !important;
+    background-image: -ms-linear-gradient(top, #6dbffd, #0660cf) !important;
+    background-image: -o-linear-gradient(top, #6dbffd, #0660cf) !important;
+    background-image: linear-gradient(top, #6dbffd, #0660cf) !important;
+    border: 1px solid #0660cf !important;
+    -webkit-box-shadow: 0 1px 0 0 #bfedff inset, 0 2px 0 0 #e5e5e5 !important;
+    -moz-box-shadow: 0 1px 0 0 #bfedff inset, 0 2px 0 0 #e5e5e5 !important;
+    box-shadow: 0 1px 0 0 #bfedff inset !important;
+    color: #fff !important;
+    text-shadow: 0 -1px 0 #1069d3 !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#6dbffd', endColorstr='#0660cf')" !important;
+}
+
+.ys-title-search-result  li .add2basket:hover {
+    background: #3b91e7 !important;
+    box-shadow: 0 1px 0 0 #64def8 inset !important;
+}
+
+.ys-title-search-result  li .add2basket:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0660cf), color-stop(100%, #6dbffd)) !important;
+    background-image: -webkit-linear-gradient(top, #0660cf, #6dbffd) !important;
+    background-image: -moz-linear-gradient(top, #0660cf, #6dbffd) !important;
+    background-image: -ms-linear-gradient(top, #0660cf, #6dbffd) !important;
+    background-image: -o-linear-gradient(top, #0660cf, #6dbffd) !important;
+    background-image: linear-gradient(top, #0660cf, #6dbffd) !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#0660cf', endColorstr='#6dbffd')" !important;
+}

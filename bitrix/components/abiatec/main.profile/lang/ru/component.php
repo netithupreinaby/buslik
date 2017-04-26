@@ -1,0 +1,50 @@
+<?
+$MESS["ACCOUNT_UPDATE"] = "Администратор сайта изменил ваши регистрационные данные.";
+$MESS["PROFILE_DEFAULT_TITLE"] = "Профиль пользователя";
+$MESS["USER_DONT_KNOW"] = "(неизвестно)";
+$MESS["main_profile_sess_expired"] = "Ваша сессия истекла, повторите попытку.";
+$MESS["main_profile_decode_err"] = "Ошибка при дешифровании пароля (#ERRCODE#).";
+
+$MESS ['EMPTY_EMAIL'] = "Поле \"E-mail\" не может быть пустым!";
+$MESS ['EMPTY_TITLE'] = "Поле \"Обращение\" не может быть пустым!";
+$MESS ['EMPTY_NAME'] = "Поле \"Имя\" не может быть пустым!";
+$MESS ['EMPTY_SECOND_NAME'] = "Поле \"Отчество\" не может быть пустым!";
+$MESS ['EMPTY_LAST_NAME'] = "Поле \"Фамилия\" не может быть пустым!";
+$MESS ['EMPTY_AUTO_TIME_ZONE'] = "Поле \"Часовой пояс\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_PROFESSION'] = "Поле \"Профессия\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_WWW'] = "Поле \"WWW-страница\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_ICQ'] = "Поле \"ICQ\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_GENDER'] = "Поле \"Пол\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_BIRTHDAY'] = "Поле \"Дата рождения\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_PHOTO'] = "Поле \"Фотография\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_PHONE'] = "Поле \"Телефон\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_FAX'] = "Поле \"Факс\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_MOBILE'] = "Поле \"Мобильный\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_PAGER'] = "Поле \"Пейджер\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_STREET'] = "Поле \"Улица, дом\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_MAILBOX'] = "Поле \"Почтовый ящик\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_CITY'] = "Поле \"Город\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_STATE'] = "Поле \"Область / край\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_ZIP'] = "Поле \"Почтовый индекс\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_COUNTRY'] = "Поле \"Страна\" не может быть пустым!";
+$MESS ['EMPTY_PERSONAL_NOTES'] = "Поле \"Дополнительные заметки\" не может быть пустым!";
+$MESS ['EMPTY_WORK_COMPANY'] = "Поле \"Наименование компании\" не может быть пустым!";
+$MESS ['EMPTY_WORK_DEPARTMENT'] = "Поле \"Департамент / Отдел\" не может быть пустым!";
+$MESS ['EMPTY_WORK_POSITION'] = "Поле \"Должность\" не может быть пустым!";
+$MESS ['EMPTY_WORK_WWW'] = "Поле \"WWW-страница\" не может быть пустым!";
+$MESS ['EMPTY_WORK_PHONE'] = "Поле \"Телефон\" не может быть пустым!";
+$MESS ['EMPTY_WORK_FAX'] = "Поле \"Факс\" не может быть пустым!";
+$MESS ['EMPTY_WORK_PAGER'] = "Поле \"Пейджер\" не может быть пустым!";
+$MESS ['EMPTY_WORK_STREET'] = "Поле \"Улица, дом\" не может быть пустым!";
+$MESS ['EMPTY_WORK_MAILBOX'] = "Поле \"Почтовый ящик\" не может быть пустым!";
+$MESS ['EMPTY_WORK_CITY'] = "Поле \"Город\" не может быть пустым!";
+$MESS ['EMPTY_WORK_STATE'] = "Поле \"Область / край\" не может быть пустым!";
+$MESS ['EMPTY_WORK_ZIP'] = "Поле \"Почтовый индекс\" не может быть пустым!";
+$MESS ['EMPTY_WORK_COUNTRY'] = "Поле \"Страна\" не может быть пустым!";
+$MESS ['EMPTY_WORK_PROFILE'] = "Поле \"Направления деятельности\" не может быть пустым!";
+$MESS ['EMPTY_WORK_LOGO'] = "Поле \"Логотип компании\" не может быть пустым!";
+$MESS ['EMPTY_WORK_NOTES'] = "Поле \"Дополнительные заметки\" не может быть пустым!";
+$MESS ['EMPTY_PASSWORD'] = "Поле \"Пароль\" не может быть пустым!";
+$MESS ['EMPTY_NEW_PASSWORD'] = "Поле \"Новый пароль\" не может быть пустым!";
+
+?>

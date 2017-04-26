@@ -1,0 +1,117 @@
+
+#ys_filter_bitronic .button, #ys_filter_bitronic .button1, #ys_filter_bitronic .button2, #ys_filter_bitronic .button3,  #ys_filter_bitronic .button4, #ys_filter_bitronic .button5, #ys_filter_bitronic .button7, #ys_filter_bitronic .button8, #ys_filter_bitronic .button9, #ys_filter_bitronic .button13, #ys_filter_bitronic .button14 {
+    background-color: #CF2020 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FD9742), color-stop(100%, #CF2020)) !important;
+	background-image: -webkit-linear-gradient(top, #FD9742, #CF2020) !important;
+	background-image: -moz-linear-gradient(top, #FD9742, #CF2020) !important;
+	background-image: -ms-linear-gradient(top, #FD9742, #CF2020) !important;
+	background-image: -o-linear-gradient(top, #FD9742, #CF2020) !important;
+	background-image: linear-gradient(top, #FD9742, #CF2020) !important;
+    border: 1px solid #CF2020 !important;
+    box-shadow: 0 1px 0 0 #FFCD30 inset, 0 2px 0 0 #E5E5E5 !important;
+    color: #FFFFFF !important;
+    text-shadow: 0 -1px 0 #D12522 !important;
+	border-radius: 3px 3px 3px 3px !important;
+    font-size: 14px !important;
+    text-align: center !important;
+    text-decoration: none !important;	
+}
+
+#ys_filter_bitronic .selector, #ys_filter_bitronic .checker, .button, #ys_filter_bitronic .radio, #ys_filter_bitronic .uploader {
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+
+.ui-slider-handle {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/bul_red.png") no-repeat scroll 0 0 transparent !important;
+}
+
+
+
+
+
+div.checker {
+	height:13px;
+	width:13px;
+	padding:0;
+	cursor:pointer;
+}
+
+
+div.checker span {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/ch_bg_ice.png") no-repeat scroll left top transparent;
+}
+
+div.checker span {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+}
+
+div.checker span {
+    display: inline-block;
+    text-align: center;
+}
+
+div.focus span,
+div.checker:hover span,
+div.checker.active span,
+div.hover span,
+div.checker.focus span,
+div.checker:hover span {
+	background:url(/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/ch_bg_hover_red.png) top left no-repeat;
+	cursor:pointer;
+}
+
+div.checker span.checked,
+div.checker span.checked:hover,
+div.focus span.checked,
+div:hover span.checked,
+div.hover span.checked {
+	background:url(/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/ch_bg_active_red.png) top left no-repeat;
+}
+
+
+#ys_filter_bitronic.txt, #ys_filter_bitronic textarea {
+    border: 1px solid #000000;
+}
+
+#ys_filter_bitronic .txt, #ys_filter_bitronic textarea {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 2px #D0D0D0 inset;
+    padding: 6px 10px;
+}
+
+#ys_filter_bitronic .txt, textarea { border: 1px solid #000000; }
+#ys_filter_bitronic .txt:focus, textarea:focus { border-color: #e00c0c; }
+#ys_filter_bitronic  .selectBox-label:hover{color: #e00c0c;}
+
+#ys_filter_bitronic .limit {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/shkala_red.png") no-repeat scroll center top transparent !important;
+    margin: 20px 0 10px;
+    padding: 0;
+    width: 180px;
+	height: 5px !important;
+}
+
+/* --------- */
+
+
+
+#ys_filter_bitronic .button:hover, #ys_filter_bitronic .button1:hover, #ys_filter_bitronic .button2:hover, #ys_filter_bitronic .button3:hover, #ys_filter_bitronic .button4:hover, #ys_filter_bitronic .button5:hover, #ys_filter_bitronic .button7:hover, #ys_filter_bitronic .button8:hover, #ys_filter_bitronic .button9:hover, #ys_filter_bitronic .button13:hover, #ys_filter_bitronic .button14:hover {
+    background: none repeat scroll 0 0 #EA6534 !important;
+    box-shadow: 0 1px 0 0 #F99826 inset, 0 2px 0 0 #E5E5E5 !important;
+}
+
+#ys_filter_bitronic .button:active, #ys_filter_bitronic .button1:active, #ys_filter_bitronic .button2:active, #ys_filter_bitronic .button3:active, #ys_filter_bitronic .button4:active, #ys_filter_bitronic .button5:active, #ys_filter_bitronic .button7:active, #ys_filter_bitronic .button8:active, #ys_filter_bitronic .button9:active, #ys_filter_bitronic .button13:active, #ys_filter_bitronic .button14:active {
+    background-image: -moz-linear-gradient(center top , #CF2020, #FD9742) !important;
+}
+
+#ys_filter_bitronic .ui-slider-handle:hover {
+    background-position: 0 -17px !important;
+}
+#ys_filter_bitronic .ui-slider-handle:active {
+    background-position: 0 -34px !important;
+}
+

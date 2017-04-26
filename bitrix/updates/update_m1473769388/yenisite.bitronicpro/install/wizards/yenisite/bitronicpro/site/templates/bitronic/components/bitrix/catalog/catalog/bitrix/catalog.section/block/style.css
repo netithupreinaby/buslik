@@ -1,0 +1,42 @@
+div.ye-props {
+	margin-bottom: 10px;
+}
+
+.item-popup select.toggle-list, .item-popup .selectBox {
+    border: medium none !important;
+    height: 25px !important;
+    padding: 5px 5px 0 !important;
+    width: 170px !important;
+	
+	margin-bottom: 10px;
+}
+.item-popup input.checkbox, .item-popup select, .item-popup .selectBox {
+    cursor: pointer !important;
+}
+.item-popup .selectBox-dropdown {
+    color: #000000 !important;
+    min-width: 150px !important;
+    outline: medium none !important;
+    position: relative !important;
+    text-decoration: none !important;
+    vertical-align: middle !important;
+}
+.item-popup .selectBox-arrow {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/search-arrow.png") no-repeat scroll center center transparent !important;
+}
+.item-popup .selectBox-dropdown .selectBox-arrow {
+    height: 100% !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 23px !important;
+}
+
+.item-popup select.toggle-list, .item-popup .selectBox {
+    background: url("/bitrix/components/yenisite/catalog.filter_complete/templates/bitronic/images/sb_select_ice.png") no-repeat scroll left top transparent;
+}
+
+.item-popup .set-item {float: left; height: 80px; width: 45%;}
+.item-popup .set-but {position: absolute; bottom: 30px; right: 30px;}
+
+.selectBox-dropdown-menu {height: 150px !important;}

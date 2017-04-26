@@ -1,0 +1,61 @@
+table.profiles {
+border: 0px;
+border-spacing: 0px;
+}
+table.profiles td{
+padding: 5px;
+vertical-align: top;
+/*width: 60%;*/
+
+}
+
+table.sale_order_full_table td{
+padding: 0px !important;
+}
+
+td.hide
+{
+width: 0% !important;
+}
+
+td.no-hide
+{
+width: 100% !important;
+}
+
+.colLeft{
+		width:100px;
+		float:left;
+		position:relative;
+}
+.colRightContainer{
+		float:right;
+		width:100%;
+		margin-left:-100px;
+}
+.colRight{
+		margin-left:120px;
+}
+
+.custom_delivery{
+margin-bottom: 0 !important;
+}
+
+.custom_delivery_profile{
+margin: 0 0 10px 25px !important;
+}
+
+td.form-item select {
+	background: #fff;
+	border: 1px solid #c1c5c8;
+	border-radius: 2px;
+	color: #000;
+	box-shadow: inset 2px 2px 2px -1px rgba(180,188,191,0.5);
+	display: inline-block;
+	outline: none;
+	vertical-align: middle;
+	font-size: 14px;
+	padding: 6px 3px 6px 8px;
+	min-width: 160px;
+	margin-bottom: 5px;
+}

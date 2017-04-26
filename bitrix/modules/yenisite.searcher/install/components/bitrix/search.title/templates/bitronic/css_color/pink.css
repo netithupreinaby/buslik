@@ -1,0 +1,64 @@
+#ys-title-search  .s_submit{
+    color: #3699de!important;
+}
+
+#ys-title-search-input:focus {
+	border-color: #f15182!important;
+}
+
+.ys-title-search-result h3,
+.ys-title-search-result a,
+#ys-title-search a
+{
+    color: #3699de!important;
+    border-color: #8dc5ec!important;
+}
+
+.ys-title-search-result a:hover,
+#ys-title-search a:hover
+{
+    color: #f15182!important;
+    border-color: #f79db8!important;
+}
+
+.ys-title-search-result /*.similar_items*/ li:hover {
+    background: #e0f2ff!important;
+}
+.ys-title-search-result  li.noitem:hover {
+    background: none!important;
+}
+
+
+
+.ys-title-search-result  li .add2basket  {
+    background-color: #35a3f0 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #83ccff), color-stop(100%, #35a3f0)) !important;
+    background-image: -webkit-linear-gradient(top, #83ccff, #35a3f0) !important;
+    background-image: -moz-linear-gradient(top, #83ccff, #35a3f0) !important;
+    background-image: -ms-linear-gradient(top, #83ccff, #35a3f0) !important;
+    background-image: -o-linear-gradient(top, #83ccff, #35a3f0) !important;
+    background-image: linear-gradient(top, #83ccff, #35a3f0) !important;
+    border: 1px solid #35a3f0 !important;
+    box-shadow: 0 1px 0 0 #c2e6ff inset !important;
+    color: #fff !important;
+    text-shadow: 0 -1px 0 #3699de !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#83ccff', endColorstr='#35a3f0')" !important;
+}
+
+.ys-title-search-result  li .add2basket:hover  {
+    background: #3699de !important;
+    box-shadow: 0 1px 0 0 #9bccef inset !important;
+}
+
+.ys-title-search-result  li .add2basket:active {
+    background-color: #ffb400 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #40a9f2), color-stop(100%, #83ccff)) !important;
+    background-image: -webkit-linear-gradient(top, #40a9f2, #83ccff) !important;
+    background-image: -moz-linear-gradient(top, #40a9f2, #83ccff) !important;
+    background-image: -ms-linear-gradient(top, #40a9f2, #83ccff) !important;
+    background-image: -o-linear-gradient(top, #40a9f2, #83ccff) !important;
+    background-image: linear-gradient(top, #40a9f2, #83ccff) !important;
+    box-shadow: inset 2px 2px 5px 1px #0674c1 !important;
+    border-color: #fff !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#40a9f2', endColorstr='#83ccff')" !important;
+}

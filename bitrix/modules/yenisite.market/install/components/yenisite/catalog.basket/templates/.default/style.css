@@ -1,0 +1,14 @@
+.big-basket { border: 1px solid #cccccc; background: #eeeeee; }
+.big-basket tr:hover{background: #ffffff;}
+.big-basket td{text-align: center; font-size: 14px; vertical-align: middle; height: 40px;}
+.big-basket span {font-style: italic; font-size: 13px;}
+.big-basket span b{font-style: normal;}
+.big-basket .head{ border-bottom: 1px solid #cccccc; background: #dddddd; text-align: center; font-size: 14px; font-family: verdana; font-weight: bold; height: 30px; }
+.big-basket .c{ border-left: 1px solid #cccccc; border-right: 1px solid #cccccc;}
+.big-basket .l{ border-left: 1px solid #cccccc; }
+
+.big-basket-fields { border: 1px solid #cccccc; background: #eeeeee; }
+.big-basket-fields .left{text-align: right; padding-right: 15px;}
+.big-basket-fields .right{text-align: left; padding-left: 30px; border-left: 1px solid #cccccc;}
+.big-basket-fields td{ font-size: 14px; font-family: verdana; vertical-align: middle; padding: 5px;}
+.big-basket-fields tr{border-bottom: 1px solid #cccccc;}

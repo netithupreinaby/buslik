@@ -1,0 +1,5 @@
+<?
+global $APPLICATION;
+$APPLICATION->AddChainItem(GetMessage('TITUL'));
+$APPLICATION->SetTitle(GetMessage('TITUL'));
+?>

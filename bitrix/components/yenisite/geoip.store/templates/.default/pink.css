@@ -1,0 +1,32 @@
+#ys-geoipstore a.close {
+    font-size: 16px;
+    color: #9accee;
+    border: 1px solid #9accee !important;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 28px;
+}
+
+#ys-geoipstore a.close:hover {
+    color: #3699de;
+    border-color: #3699de !important;
+}
+
+#ys-geoipstore a.close:active {
+    color: #f15182;
+    border-color: #f15182 !important;
+}
+
+#ys-geoipstore .txt {
+    border: 1px solid #c0c0c0;
+}
+
+#ys-geoipstore a {
+    color: #3699de;
+    border-color: #8dc5ec;
+}
+
+#ys-geoipstore a:hover {
+    color: #f15182;
+    border-color: #f79db8;
+}

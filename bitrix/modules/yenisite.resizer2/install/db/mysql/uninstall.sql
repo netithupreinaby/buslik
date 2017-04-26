@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS `yen_resizer2_set_file`, `yen_resizer2_sets`, `yen_resizer2_settings`;

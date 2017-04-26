@@ -1,0 +1,11 @@
+.filter-table select{
+	width: 200px; 
+	height: 50px;
+}
+.filter-table td {border: 1px solid #cccccc; padding: 10px 20px;}
+.filter-table { 
+	border-collapse:collapse; 
+}
+.filter-table .checkbox {clear: both; display: block; float: left;}
+.filter-field-name {clear: both; margin-bottom: 10px;}
+.filter-field-input {display: none;}

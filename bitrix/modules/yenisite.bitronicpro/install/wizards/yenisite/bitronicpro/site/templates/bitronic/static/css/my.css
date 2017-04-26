@@ -1,0 +1,127 @@
+.catalog-list-light table { width: 100%; }
+
+.catalog-list-light td {
+	padding:10px 0;
+	vertical-align:top;
+}
+
+.catalog-list-light td p {
+	font-size:12px;
+	margin-bottom:0;
+}
+
+.catalog-list-light input.w32 {
+	width:30px;
+	height:25px;
+	background:url(../img/w32.png) top left no-repeat;
+	border:none;
+	float:left;
+	margin-right:10px;
+	text-align:center;
+	font-size:14px;
+}
+
+.catalog-list-light a.plus {
+	width:20px;
+	height:20px;
+	display:block;
+	float:left;
+	margin:3px 2px 0 0;
+	background:url(../img/plus_minus.png);
+	background-position:0 0;
+}
+
+.catalog-list-light a.plus:hover {
+	background-position:0 -22px;
+}
+
+.catalog-list-light a.minus {
+	width:20px;
+	height:20px;
+	float:left;
+	margin:3px 2px 0 0;
+	display:block;
+	background:url(../img/plus_minus.png);
+	background-position:-20px 0;
+}
+
+.catalog-list-light a.minus:hover {
+	background-position:-20px -22px;
+}
+.catalog-list-light a.add-basket {
+	width:43px;
+	height:42px;
+	display:block;
+	background:url(../img/add_to_basket_icons.gif);	
+	margin-top: -8px;
+}
+
+.catalog-list-light a.delete:hover {
+	background-position:-40px -22px;
+}
+
+.catalog-list-light td .price {
+	font-size: 20px;
+	display:block;
+	text-align:right;
+	padding:5px 20px 0 0;
+	font-weight: normal;
+}
+
+#compare-popup td.price {
+	text-align:left;
+}
+
+.catalog-list-light td h3 {
+	margin-bottom:0;
+	padding-top:5px;
+}
+
+div.make_order {
+	border-top:1px solid #ccc;
+	padding:20px 0 0;
+	text-align:right;
+}
+
+.make_order input.make_order{
+	width:160px;
+	height:32px;
+	border:none;
+	color:#fff;
+	font-size:14px;
+	background:url(../img/make_order.jpg) top left no-repeat;
+	padding:0 0 5px 0;
+	cursor:pointer;
+}
+
+
+.make_order input.make_order:hover {
+	background-position:0 -32px;
+}
+
+#compare-popup .make_order input.make_compare{
+	width:94px;
+	height:32px;
+	border:none;
+	color:#fff;
+	font-size:14px;
+	background:url(../img/button.png) top left no-repeat;
+	padding:0 0 5px 0;
+	cursor:pointer;
+}
+
+
+#compare-popup .make_order input.make_compare:hover {
+	background-position:0 -32px;
+}
+
+.sum {
+	font-size:14px;
+	padding:0 10px 0 0;
+	position:relative;
+	top:4px;
+}
+
+.sum strong {
+	font-size:18px;
+}
