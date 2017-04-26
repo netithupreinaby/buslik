@@ -2,6 +2,13 @@
 $DB->Query("SET NAMES 'utf8'");
 $DB->Query('SET collation_connection = "utf8_unicode_ci"');
 
+if(class_exists(BuslikTimeSlotHelper))
+{
+	$BuslikTimeSlotHelper=new BuslikTimeSlotHelper();
+	$r=$BuslikTimeSlotHelper->getAvailableSlotsToday(2);
+	print_r($r);
+}
+
 if (!function_exists('printr')) {
         function printr($array) {
                 GLOBAL $USER;
@@ -32,6 +39,9 @@ function declinationTm($value=1, $status= array('','а','ов'))
 
     }
 }
+
+
+
 
 
 function getSaleFilter($xmlCode){

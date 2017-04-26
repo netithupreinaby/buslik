@@ -2,7 +2,6 @@
 <?include_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/php_interface/helpers.php") ;?>
 <?require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/components/yenisite/catalog.sets/userprop.php");
 define("LOG_FILENAME", $_SERVER["DOCUMENT_ROOT"]."/1cLog.txt");
-
 define("RE_SITE_KEY","6LdUphAUAAAAACiEhXBimGFfuTmFgXxvP7WUKJO7");
 define("RE_SEC_KEY","6LdUphAUAAAAAEAO6uxRZlMneWWB8ntYLC8df4lj");
 
@@ -22,6 +21,8 @@ AddEventHandler("iblock", "OnBeforeIBlockElementUpdate", "AddElementReferenceId"
 
 
 AddEventHandler('form', 'onAfterResultAdd', 'onAfterResultAddUpdate');
+
+
 
 function onAfterResultAddUpdate($WEB_FORM_ID, $RESULT_ID)
 {

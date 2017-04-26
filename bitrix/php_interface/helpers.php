@@ -1088,4 +1088,8 @@ class importSaleXmlBuslickBuslick{
 
 require_once 'helpers/global.php';
 require_once 'helpers/BuslikReserveHelper.php';
+require_once 'helpers/BuslikTimeSlotHelper.php';
+
+
+
 require_once 'events.php';
